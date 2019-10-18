@@ -1,4 +1,4 @@
-package cn.skio.apis;
+package cn.skio.apis.testNGAnnotation;
 
 import org.testng.annotations.*;
 

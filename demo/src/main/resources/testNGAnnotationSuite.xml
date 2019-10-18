@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "demo">
+    <test name="test_1">
+        <classes>
+            <class name="cn.skio.apis.testNGAnnotation.TestNGAnnotationDemo"/>
+        </classes>
+    </test>
+
+    <test name="test_2">
+        <classes>
+            <class name="cn.skio.apis.testNGAnnotation.SuiteAnnotationDemo" />
+        </classes>
+    </test>
+
+</suite>
