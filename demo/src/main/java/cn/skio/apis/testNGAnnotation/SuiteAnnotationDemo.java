@@ -1,4 +1,4 @@
-package cn.skio.apis.suite;
+package cn.skio.apis.testNGAnnotation;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
