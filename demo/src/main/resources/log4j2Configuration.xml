@@ -1,5 +1,5 @@
-<!--log4j2的配置文件，必须在resource文件夹下才能生效-->
 <?xml version="1.0" encoding="UTF-8"?>
+<!--log4j2的配置文件，必须在resource文件夹下才能生效-->
 <Configuration>
     <Appenders>
         <!--指定日志文件的名称、位置-->

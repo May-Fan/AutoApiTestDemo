@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
  * @author: May
  * @create: 2019-09-30 14:18
  */
-public class ReportTest {
+public class TestReportDemo {
   @Test
   public void test1() {
     Assert.assertEquals(1,2);

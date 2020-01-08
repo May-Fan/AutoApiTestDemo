@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [reportdemo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="cn.skio.apis.extentReport.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="reportdemo2(failed)">
+    <classes>
+      <class name="cn.skio.apis.extentReport.TestReportDemo">
+        <methods>
+          <include name="test1"/>
+          <include name="reportTest"/>
+        </methods>
+      </class> <!-- cn.skio.apis.extentReport.TestReportDemoDemo -->
+    </classes>
+  </test> <!-- reportdemo2(failed) -->
+</suite> <!-- Failed suite [reportdemo] -->

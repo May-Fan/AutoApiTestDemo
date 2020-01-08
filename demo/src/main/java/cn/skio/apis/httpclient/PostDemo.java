@@ -1,4 +1,4 @@
-package cn.skio.apis.httpclientDemo;
+package cn.skio.apis.httpclient;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
@@ -40,7 +40,9 @@ public class PostDemo {
     return url;
   }
 
-  //使用get请求获取接口返回的cookie
+  /**
+   * 使用get请求获取接口返回的cookie
+   */
   @Test
   public void getCookies_1() throws IOException {
     HttpGet httpGet = new HttpGet(this.url+"/getCookies");

@@ -1,4 +1,4 @@
-package cn.skio.apis;
+package cn.skio.apis.testNGAnnotation;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,12 +10,15 @@ import java.lang.reflect.Method;
 /**
  * @program: AutoApiTestDemo
  * @description: 介绍了DataProvider标签的使用（用于配置/获取测试数据）
+ * @description: 简单使用了常用日志框架log4j2的用法
  * @author: May
  * @create: 2019-09-29 16:30
  */
 public class DataProviderTest {
 
-  //在名称为data的DataProvider注解的方法中，获取测试数据
+  /**
+   * 在名称为data的DataProvider注解的方法中，获取测试数据
+   */
   @Test(dataProvider = "data")
   public void dataReceiver_1(String name,int age) {
     System.out.println("当前登录用户："+name+"，年龄："+age);
@@ -26,11 +29,14 @@ public class DataProviderTest {
     System.out.println("当前登录用户："+name+"，年龄："+age);
 
     //指定日志在哪个类下面运行
+    //log4j2的xml配置文件在resource目录下
     Logger logger = LogManager.getLogger(DataProviderTest.class.getName());
     logger.debug("使用log4j2打印日志");
   }
 
-  //配置名称为data的测试数据
+  /**
+   * 配置名称为data的测试数据
+   */
   @DataProvider(name = "data")
   public Object[][] provider(Method method) {
     Object [][] obj = null;

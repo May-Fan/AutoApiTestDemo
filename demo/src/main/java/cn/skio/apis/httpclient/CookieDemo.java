@@ -1,4 +1,4 @@
-package cn.skio.apis.httpclientDemo;
+package cn.skio.apis.httpclient;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
@@ -36,7 +36,9 @@ public class CookieDemo {
     return url;
   }
 
-  //使用get请求获取接口返回的cookie
+  /**
+   * 使用get请求获取接口返回的cookie
+   */
   @Test
   public void getCookies() throws IOException {
     HttpGet httpGet = new HttpGet(this.url+"/getCookies");
@@ -57,12 +59,15 @@ public class CookieDemo {
 
   @Test(dependsOnMethods = {"getCookies"})
   public void withCookies() throws IOException {
-    //声明一个HttpGet对象
+    //声明一个HttpGet对象，并配置接口url
     HttpGet httpGet_2 = new HttpGet(this.url + "/withCookies");
+    //执行get请求，获取接口返回信息
     HttpResponse response2 = httpClient.execute(httpGet_2);
 
+    //声明并获取返回信息中的状态码
     int statusCode = response2.getStatusLine().getStatusCode();
 
+    //如果状态码为200，说明接口返回数据，打印返回信息
     if (statusCode == 200) {
       String result = EntityUtils.toString(response2.getEntity(), "utf-8");
       System.out.println(result);

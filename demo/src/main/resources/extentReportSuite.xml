@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name = "reportdemo">
-    <test name="reportdemo2">
+<suite name = "extentReportSuite">
+    <test name="extentReportTest">
         <classes>
             <class name="cn.skio.apis.extentReport.TestReportDemo">
                 <methods>
@@ -13,6 +13,8 @@
         </classes>
     </test>
 
+    <!--监听类就是extentReport目录下的配置类-->
+    <!--添加监听器后，只要运行该组件，测试报告就会在test-output文件夹下的report.html中-->
     <listeners>
         <listener class-name="cn.skio.apis.extentReport.ExtentTestNGIReporterListener" />
     </listeners>
