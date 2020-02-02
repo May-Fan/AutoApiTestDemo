@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name = "demo">
+<!--并行等级为方法级别，最大并发线程数是1-->
+<!--方法级别：所有测试方法可以在不同的线程下执行，同一个方法只能在一个线程下执行，同java多线程-->
+<suite name = "demo" paraller="methods" thread-count="1">
     <test name="test_1">
         <classes>
             <class name="cn.skio.apis.testNGAnnotation.TestNGAnnotationDemo"/>
@@ -12,8 +14,12 @@
         </classes>
     </test>
 
-    <listeners>
-        <listener class-name="cn.skio.apis.extentReport.ExtentTestNGIReporterListener" />
-    </listeners>
+    <test name="parameter">
+        <classes>
+            <parameter name="name" value="May"/>
+            <parameter name="age" value="18" />
+            <class name="cn.skio.apis.testNGAnnotation.ParameterDemo" />
+        </classes>
+    </test>
 
 </suite>

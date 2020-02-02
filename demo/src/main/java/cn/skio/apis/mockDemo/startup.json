@@ -15,7 +15,7 @@
       "uri": "/cars",
       "method": "get",
       "queries": {
-        "name": "aaa",
+        "name": "May",
         "age": "28"
       }
     },
@@ -48,6 +48,26 @@
     }
   },
   {
+    "description": "模拟一个带header头信息的post请求",
+    "request": {
+      "uri": "/header",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "phone": "15067137035",
+        "career": "doctor"
+      }
+    },
+    "response": {
+      "json": {
+        "msg": "success!",
+        "status": 200
+      }
+    }
+  },
+  {
     "description": "模拟一个带cookies的get请求",
     "request": {
       "uri": "/withCookies",
@@ -69,12 +89,16 @@
       "method": "get"
     },
     "response": {
+      "json": {
+        "msg": "success!",
+        "status": 200,
+        "text": "这是一个返回cookies信息的get请求的返回信息"
+      },
       "cookies": {
         "name": "1",
         "age": "17",
         "sex": "female"
-      },
-      "text": "这是一个返回cookies信息的get请求的返回信息"
+      }
     }
   },
   {
@@ -82,6 +106,9 @@
     "request": {
       "uri": "/withCookiesPost",
       "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
       "cookies": {
         "name": "1",
         "age": "17",

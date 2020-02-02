@@ -10,23 +10,23 @@ import org.testng.annotations.*;
 public class TestNGAnnotationDemo {
 
   @BeforeTest
-  public void beforeTest1() {
+  public void beforeTest() {
     System.out.println("BeforeTest注解后，方法在xml文件中的test组件前运行");
   }
 
   @BeforeClass
-  public void beforeClass1() {
+  public void beforeClass() {
     System.out.println("BeforeClass注解后，方法在当前所在类之前运行");
   }
 
   @BeforeMethod
   public void beforeMethod() {
-    System.out.println("BeforeMethod注解后，该方法在所有注解了Test的测试方法之前运行一次");
+    System.out.println("BeforeMethod注解后，该方法在当前类下所有注解了Test的测试方法之前运行一次");
   }
 
   @AfterMethod
   public void afterMethod() {
-    System.out.println("AfterMethod注解后，该方法在所有注解了Test的测试方法之后运行一次");
+    System.out.println("AfterMethod注解后，该方法在当前类下所有注解了Test的测试方法之后运行一次");
   }
 
   /**
@@ -87,6 +87,15 @@ public class TestNGAnnotationDemo {
   @Test(enabled = false)
   public void ignoreDemo() {
     System.out.println("enabled = false后，该测试方法被忽略，不会运行");
+  }
+
+  /**
+   * 异常测试的注解：给定预期异常，即可正常往下执行，不会报错
+   */
+  @Test(expectedExceptions = RuntimeException.class)
+  public void runTimeException() {
+    System.out.println("异常测试：注解中给定预期异常，即可执行成功");
+    throw new RuntimeException();
   }
 
   @AfterClass

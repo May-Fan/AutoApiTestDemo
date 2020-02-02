@@ -2,38 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32711c00-82ab-4ff8-a948-0aac91326fc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/HttpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/ParameterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/threadDemo/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/chapter1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/logs/log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/demo/logs/log4j2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/TestReportDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/TestReportDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/CookieDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/CookieDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/CookieDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/GetCookieDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostCookieDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/startup.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/startup.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/基本操作说明" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/基本操作说明" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/DataProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/DataProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/SuiteAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/SuiteAnnotationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/log4j2Configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/log4j2Configuration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/DataProviderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/GroupsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/PayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/multiThread/MultiThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/suite/SuiteConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/suite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/suite2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/suite2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/META-INF/demo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/META-INF/demo.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/httpclient/CookieDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/httpclient/PostDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/DataProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/DataProviderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/suite2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/testNGAnnotationSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/testNGAnnotationSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test-output/report.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/demo/target/" />
-    <ignored path="$PROJECT_DIR$/chapter1/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,113 +47,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/基本操作说明">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="73" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/TestReportDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/DataProviderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/log4j2Configuration.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/SuiteAnnotationDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -167,55 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>generateReport</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/suit/SuitConfig.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/suit.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/PayTest.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/BasicAnnotation.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/GroupsTest.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/LoginTest.java" />
-        <option value="$PROJECT_DIR$/chapter1/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ReportTest.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/extentReport.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListenerOld.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/suite2.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclientDemo/HTTPClientDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/基本操作说明" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclientDemo/GetCookieDemo.java" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclientDemo/PrintHttpResponse.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclientDemo/CookieDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclientDemo/PostDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/LoginTest.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/SuiteConfig.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/SuiteAnnotationDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/suite.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/DataProviderTest.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/TestReportDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/CookieDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/DataProviderTest.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/startup.json" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/log4j2Configuration.xml" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -231,159 +71,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="143" />
-    <option name="y" value="39" />
-    <option name="width" value="1236" />
-    <option name="height" value="777" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skio" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skio" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="extentReport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skio" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skio" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="mockDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skio" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="testNGAnnotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoApiTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoApiTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1WCO4DjNCMlw4ZVFI9GONYdVbdB" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571304812939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578644806498" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -393,36 +91,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/testNGAnnotationSuite.xml">
-    <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.skio.apis.testNGAnnotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.skio.apis" />
-      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.testNGAnnotation.DataProviderTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PostCookieDemo.withCookiesPost">
+    <configuration name="GetCookieDemo.getCookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -430,43 +100,73 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclientDemo" />
-      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.PostDemo" />
+      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.GetCookieDemo" />
+      <option name="METHOD_NAME" value="getCookies" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReportDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCookieDemo.withCookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.skio.apis.extentReport.*" />
+          <option name="PATTERN" value="cn.skio.apis.httpclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.skio.apis.extentReport" />
-      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.extentReport.TestReportDemo" />
+      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.GetCookieDemo" />
+      <option name="METHOD_NAME" value="withCookies" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpDemo.get" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/demo/src/main/resources/suite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.skio.apis.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.HttpDemo" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/testNGAnnotationSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostCookieDemo.withCookiesPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.skio.apis.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.PostCookieDemo" />
+      <option name="METHOD_NAME" value="withCookiesPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/extentReportSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -475,21 +175,33 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.PostDemo" />
-      <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" />
-      <item itemvalue="TestNG.DataProviderTest" />
-      <item itemvalue="TestNG.TestReportDemo" />
-      <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/testNGAnnotationSuite.xml" />
+      <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/extentReportSuite.xml" />
+      <item itemvalue="TestNG.HttpDemo.get" />
+      <item itemvalue="TestNG.GetCookieDemo.getCookies" />
+      <item itemvalue="TestNG.GetCookieDemo.withCookies" />
+      <item itemvalue="TestNG.PostCookieDemo.withCookiesPost" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/testNGAnnotationSuite.xml" />
-        <item itemvalue="TestNG.TestReportDemo" />
-        <item itemvalue="TestNG.DataProviderTest" />
-        <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" />
-        <item itemvalue="TestNG.PostDemo" />
+        <item itemvalue="TestNG.PostCookieDemo.withCookiesPost" />
+        <item itemvalue="TestNG.GetCookieDemo.withCookies" />
+        <item itemvalue="TestNG.GetCookieDemo.getCookies" />
+        <item itemvalue="TestNG.HttpDemo.get" />
+        <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/extentReportSuite.xml" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -509,363 +221,102 @@
       <workItem from="1571361942694" duration="1382000" />
       <workItem from="1571967953196" duration="163000" />
       <workItem from="1576745725868" duration="3094000" />
+      <workItem from="1578548870026" duration="7408000" />
+      <workItem from="1578649927460" duration="350000" />
+      <workItem from="1578703722998" duration="23236000" />
+      <workItem from="1579227269277" duration="477000" />
+      <workItem from="1579228002012" duration="5360000" />
+      <workItem from="1579246172712" duration="16000" />
+      <workItem from="1579568819495" duration="3045000" />
+      <workItem from="1580520704002" duration="15613000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="_Users_fanlilin_workspace_autoApiTest_AutoApiTestDemo_demo_src_main_resources_suite_xml - 2019.10.17 at 15h 27m 03s.xml">
-      <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_fanlilin_workspace_autoApiTest_AutoApiTestDemo_demo_src_main_resources_suite_xml - 2019.10.17 at 15h 53m 17s.xml">
-      <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_fanlilin_workspace_autoApiTest_AutoApiTestDemo_demo_src_main_resources_suite_xml - 2019.10.17 at 16h 02m 06s.xml">
-      <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_fanlilin_workspace_autoApiTest_AutoApiTestDemo_demo_src_main_resources_suite_xml - 2019.10.17 at 16h 06m 36s.xml">
-      <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_fanlilin_workspace_autoApiTest_AutoApiTestDemo_demo_src_main_resources_suite_xml - 2019.10.17 at 16h 08m 30s.xml">
-      <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DataProviderTest - 2019.10.17 at 16h 16m 39s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DataProviderTest - 2019.10.17 at 16h 46m 46s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportTest - 2019.10.17 at 16h 55m 16s.xml">
-      <configuration name="ReportTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestReportDemo - 2019.10.17 at 17h 08m 37s.xml">
-      <configuration name="TestReportDemo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_fanlilin_workspace_autoApiTest_AutoApiTestDemo_demo_src_main_resources_testNGAnnotationSuite_xml - 2019.10.17 at 17h 09m 54s.xml">
-      <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/testNGAnnotationSuite.xml" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76911000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="143" y="39" width="1236" height="777" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2512563" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916804" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50083196" side_tool="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.329927" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.329927" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3294509" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3294509" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23128119" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916804" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329927" />
-      <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50083196" side_tool="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.329927" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.329927" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3294509" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3294509" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/mavenRepository/org/testng/testng/6.10/testng-6.10-sources.jar!/org/testng/xml/TestNGContentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="281" selection-start-line="281" selection-end-line="281" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/extentReport.xml" />
-    <entry file="file://$PROJECT_DIR$/demo/test-output/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mockDemo/startup.json" />
-    <entry file="jar:///Library/mavenRepository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/HttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/mavenRepository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/HttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/mavenRepository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/methods/HttpGet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/mavenRepository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/methods/HttpPost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclientDemo/PrintHttpResponse.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/PayTest.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestDemo.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/GroupsTest.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/multiThread/MultiThread.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" />
-    <entry file="file://$PROJECT_DIR$/demo/logs/log4j2.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/startup.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/CookieDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/基本操作说明">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="73" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/TestReportDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/SuiteAnnotationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/DataProviderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/log4j2Configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="345" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578650100072">
+      <screen x="35" y="23" width="1245" height="777" />
+    </state>
+    <state x="345" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.23.1245.777@35.23.1245.777" timestamp="1578650100072" />
+    <state x="405" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580182074610">
+      <screen x="34" y="23" width="1246" height="777" />
+    </state>
+    <state x="405" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/34.23.1246.777@34.23.1246.777" timestamp="1580182074610" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1580626395869">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580626395869" />
+    <state width="1183" height="184" key="GridCell.Tab.0.bottom/34.23.1246.777@34.23.1246.777" timestamp="1578991370916" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/35.23.1245.777@35.23.1245.777" timestamp="1580624323130" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1580626395867">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580626395867" />
+    <state width="1183" height="184" key="GridCell.Tab.0.center/34.23.1246.777@34.23.1246.777" timestamp="1578991370914" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center/35.23.1245.777@35.23.1245.777" timestamp="1580624323128" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1580626395865">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580626395865" />
+    <state width="1183" height="184" key="GridCell.Tab.0.left/34.23.1246.777@34.23.1246.777" timestamp="1578991370914" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left/35.23.1245.777@35.23.1245.777" timestamp="1580624323128" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1580626395868">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580626395868" />
+    <state width="1183" height="184" key="GridCell.Tab.0.right/34.23.1246.777@34.23.1246.777" timestamp="1578991370915" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right/35.23.1245.777@35.23.1245.777" timestamp="1580624323129" />
+    <state width="1183" height="229" key="GridCell.Tab.1.bottom" timestamp="1580555010885">
+      <screen x="35" y="23" width="1245" height="777" />
+    </state>
+    <state width="1183" height="229" key="GridCell.Tab.1.bottom/35.23.1245.777@35.23.1245.777" timestamp="1580555010885" />
+    <state width="1183" height="229" key="GridCell.Tab.1.center" timestamp="1580555010884">
+      <screen x="35" y="23" width="1245" height="777" />
+    </state>
+    <state width="1183" height="229" key="GridCell.Tab.1.center/35.23.1245.777@35.23.1245.777" timestamp="1580555010884" />
+    <state width="1183" height="229" key="GridCell.Tab.1.left" timestamp="1580555010883">
+      <screen x="35" y="23" width="1245" height="777" />
+    </state>
+    <state width="1183" height="229" key="GridCell.Tab.1.left/35.23.1245.777@35.23.1245.777" timestamp="1580555010883" />
+    <state width="1183" height="229" key="GridCell.Tab.1.right" timestamp="1580555010885">
+      <screen x="35" y="23" width="1245" height="777" />
+    </state>
+    <state width="1183" height="229" key="GridCell.Tab.1.right/35.23.1245.777@35.23.1245.777" timestamp="1580555010885" />
+    <state x="127" y="0" key="SettingsEditor" timestamp="1580623034511">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="127" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1580623034511" />
+    <state x="159" y="23" key="SettingsEditor/35.23.1245.777@35.23.1245.777" timestamp="1580563982649" />
+    <state x="334" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1580525107897">
+      <screen x="35" y="23" width="1245" height="777" />
+    </state>
+    <state x="334" y="244" key="com.intellij.ide.util.TipDialog/35.23.1245.777@35.23.1245.777" timestamp="1580525107897" />
+    <state width="309" height="39" key="javadoc.popup.new" timestamp="1580623911677">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="309" height="39" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1580623911677" />
+    <state width="301" height="37" key="javadoc.popup.new/34.23.1246.777@34.23.1246.777" timestamp="1580181887677" />
+    <state width="300" height="37" key="javadoc.popup.new/35.23.1245.777@35.23.1245.777" timestamp="1580563867673" />
+    <state x="305" y="104" width="689" height="697" key="search.everywhere.popup" timestamp="1580623505398">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="104" width="689" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1580623505398" />
+    <state x="332" y="124" width="670" height="676" key="search.everywhere.popup/35.23.1245.777@35.23.1245.777" timestamp="1580563801040" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>spring-boot-starter-data-jpa-1.5.4.RELEASE</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>demo</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.beust:jcommander:1.48</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/HttpDemo.java</url>
+          <line>19</line>
+          <properties class="cn.skio.apis.httpclient.HttpDemo" method="get">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

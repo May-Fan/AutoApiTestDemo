@@ -17,15 +17,16 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
  * @program: AutoApiTestDemo
- * @description:
+ * @description: 该类演示了如何在Post方法中，携带和返回cookie信息
  * @author: May
  * @create: 2019-10-16 09:47
  */
-public class PostDemo {
+public class PostCookieDemo {
   private String url;
   private ResourceBundle bundle;
   private CookieStore cookieStore = new BasicCookieStore();
@@ -33,19 +34,17 @@ public class PostDemo {
   private CloseableHttpClient httpClient = HttpClients.custom().setDefaultCookieStore(cookieStore).build();
 
   @BeforeTest
-  public String getUrl() {
-    bundle = ResourceBundle.getBundle("application");
+  public void getUrl() {
+    bundle = ResourceBundle.getBundle("application", Locale.CHINA);
     //获取配置文件中的uri
-    url = bundle.getString("uri");
-    return url;
+    url = bundle.getString("url");
   }
-
   /**
    * 使用get请求获取接口返回的cookie
    */
   @Test
-  public void getCookies_1() throws IOException {
-    HttpGet httpGet = new HttpGet(this.url+"/getCookies");
+  public void getCookies() throws IOException {
+    HttpGet httpGet = new HttpGet(this.url+bundle.getString("getCookies"));
     HttpResponse response = httpClient.execute(httpGet);
 
     //获取响应的整体信息，将其转化成string格式并打印
@@ -54,20 +53,18 @@ public class PostDemo {
     List<Cookie> cookies = cookieStore.getCookies();
   }
 
-  @Test(dependsOnMethods = {"getCookies_1"})
+  @Test(dependsOnMethods = {"getCookies"})
   public void withCookiesPost () throws IOException {
     //声明一个HttpPost对象
     HttpPost httpPost = new HttpPost(url + "/withCookiesPost");
-    //声明参数
+    //声明JSONObject对象并添加参数
     JSONObject param = new JSONObject();
     param.put("car_no", "A");
     param.put("vin", "LDP");
-
-    //为HttpPost对象设置请求头信息
-    httpPost.setHeader("content-type", "application/json");
     StringEntity entity = new StringEntity(param.toString(), "utf-8");
     httpPost.setEntity(entity);
-
+    //为HttpPost对象设置请求头信息
+    httpPost.setHeader("content-type", "application/json");
     //执行post方法并打印返回信息
     HttpResponse httpResponse = httpClient.execute(httpPost);
 

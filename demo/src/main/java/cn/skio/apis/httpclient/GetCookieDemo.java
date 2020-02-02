@@ -21,9 +21,10 @@ import java.util.ResourceBundle;
  * @author: May
  * @create: 2019-10-14 15:40
  */
-public class CookieDemo {
+public class GetCookieDemo {
   private String url;
   private ResourceBundle bundle;
+  //全局变量，第一个Test方法获取到cookie后，后面的用例请求时会自动携带该cookie信息
   private CookieStore cookieStore = new BasicCookieStore();
   //创建一个HttpClient携带cookie信息的实例
   private CloseableHttpClient httpClient = HttpClients.custom().setDefaultCookieStore(cookieStore).build();
@@ -32,7 +33,7 @@ public class CookieDemo {
   public String getUrl() {
     bundle = ResourceBundle.getBundle("application");
     //获取配置文件中的uri
-    url = bundle.getString("uri");
+    url = bundle.getString("url");
     return url;
   }
 
@@ -57,11 +58,17 @@ public class CookieDemo {
     }
   }
 
+  /**
+   * 使用Get方法，携带cookie信息发送请求
+   * 依赖获取cookie的测试方法，通过类成员变量携带cookie信息
+   * @throws IOException
+   */
   @Test(dependsOnMethods = {"getCookies"})
   public void withCookies() throws IOException {
     //声明一个HttpGet对象，并配置接口url
     HttpGet httpGet_2 = new HttpGet(this.url + "/withCookies");
-    //执行get请求，获取接口返回信息
+    //也可在底层请求中配置cookie信息，key-value对之间用;分隔
+    //httpGet_2.setHeader("Cookie","age=17;name=1;sex=female");
     HttpResponse response2 = httpClient.execute(httpGet_2);
 
     //声明并获取返回信息中的状态码
@@ -71,6 +78,8 @@ public class CookieDemo {
     if (statusCode == 200) {
       String result = EntityUtils.toString(response2.getEntity(), "utf-8");
       System.out.println(result);
+    }else{
+      System.out.println(statusCode);
     }
   }
 }
