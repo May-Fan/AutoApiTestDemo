@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<suite name = "demo2">
-    <test name="dataProvider">
-        <classes>
-            <class name="cn.skio.apis.DataProviderTest"/>
-        </classes>
-    </test>
-</suite>

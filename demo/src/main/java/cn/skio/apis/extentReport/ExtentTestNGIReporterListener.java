@@ -15,14 +15,14 @@ import java.util.*;
 
 /**
  * Created by May on 19/9/30.
+ * @description: 测试报告框架extentReport的配置文件
+ * @description: 复制即可，不需要花过多精力研究
  */
-public class ExtentTestNGIReporterListenerOld implements IReporter {
+public class ExtentTestNGIReporterListener implements IReporter {
   //生成的路径以及文件名
   private static final String OUTPUT_FOLDER = "test-output/";
-  private static final String FILE_NAME = "index.html";
-
+  private static final String FILE_NAME = "report.html";
   private ExtentReports extent;
-
   @Override
   public void generateReport(List<XmlSuite>  xmlSuites, List<ISuite> suites, String outputDirectory) {
     init();

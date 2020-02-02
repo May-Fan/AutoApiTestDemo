@@ -1,0 +1,151 @@
+[
+  {
+    "description": "这是第一个mock的get请求demo，不携带cookie信息",
+    "request": {
+      "uri": "/demo",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是第一个mock的get请求demo的返回信息"
+    }
+  },
+  {
+    "description": "模拟一个带参数的get请求",
+    "request": {
+      "uri": "/cars",
+      "method": "get",
+      "queries": {
+        "name": "May",
+        "age": "28"
+      }
+    },
+    "response": {
+      "text": "这是一个带query parameter参数的get请求的返回信息"
+    }
+  },
+  {
+    "description": "模拟一个无参的post请求",
+    "request": {
+      "uri": "driver",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个无参的post请求的返回信息"
+    }
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/result",
+      "method": "post",
+      "forms": {
+        "car_no": "112",
+        "vin": "LDP"
+      }
+    },
+    "response": {
+      "text": "这是一个带参的post请求的返回信息"
+    }
+  },
+  {
+    "description": "模拟一个带header头信息的post请求",
+    "request": {
+      "uri": "/header",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "phone": "15067137035",
+        "career": "doctor"
+      }
+    },
+    "response": {
+      "json": {
+        "msg": "success!",
+        "status": 200
+      }
+    }
+  },
+  {
+    "description": "模拟一个带cookies的get请求",
+    "request": {
+      "uri": "/withCookies",
+      "method": "get",
+      "cookies": {
+        "name": "1",
+        "age": "17",
+        "sex": "female"
+      }
+    },
+    "response": {
+      "text":"这是一个携带cookies的get请求的返回信息"
+    }
+  },
+  {
+    "description": "模拟一个返回cookies信息的get请求",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "json": {
+        "msg": "success!",
+        "status": 200,
+        "text": "这是一个返回cookies信息的get请求的返回信息"
+      },
+      "cookies": {
+        "name": "1",
+        "age": "17",
+        "sex": "female"
+      }
+    }
+  },
+  {
+    "description": "模拟一个带cookies的post请求",
+    "request": {
+      "uri": "/withCookiesPost",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "cookies": {
+        "name": "1",
+        "age": "17",
+        "sex": "female"
+      },
+      "json": {
+        "car_no": "A",
+        "vin": "LDP"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json":{
+        "msg": "success",
+        "status": "1"
+      }
+    }
+  },
+  {
+    "description": "定义重定向的get请求",
+    "request": {
+      "uri": "/redirectTo",
+      "method": "get"
+    },
+    "redirectTo": "/newPage"
+  },
+  {
+    "description": "重定向之后的网页",
+    "request": {
+      "uri": "/newPage",
+      "method": "get"
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "msg": "重定向成功"
+      }
+    }
+  }
+]
