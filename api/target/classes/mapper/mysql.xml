@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.api.bean">
+    <!--登录case-->
+    <select id="selectUserByName" parameterType="cn.api.bean.LoginUser" resultType="Integer">
+        select count(*) from apiTest.user
+            where username=#{username} and password=#{password};
+    </select>
+
+    <!--新增用户-->
+    <insert id="addUser" parameterType="cn.api.bean.User">
+        insert into apiTest.user(id,username,password,email,create_time)
+            values (#{id},#{username},#{password},#{email},#{create_time});
+    </insert>
+
+    <!--修改用户-->
+    <update id="updateUser" parameterType="cn.api.bean.User">
+        update apiTest.user
+        <trim prefix="SET" prefixOverrides=",">
+            <if test="null != id and '' != id">
+                , id=#{id}
+            </if>
+            <if test="null != username and '' != username">
+                , username=#{username}
+            </if>
+            <if test="null != password and '' != password">
+                , password=#{password}
+            </if>
+            <if test="null != email and '' != email">
+                , email=#{email}
+            </if>
+            <if test="null != create_time and '' != create_time">
+                , create_time=#{create_time}
+            </if>
+        </trim>
+        where id=#{id}
+    </update>
+    <!--查询用户列表-->
+    <select id="getUserList" parameterType="cn.api.bean.User" resultType="cn.api.bean.User">
+        select * from apiTest.user
+        <trim prefix="WHERE" prefixOverrides="and">
+            <if test="null != id and '' != id">
+                AND id=#{id}
+            </if>
+            <if test="null != username and '' != username">
+                AND username=#{username}
+            </if>
+            <if test="null != password and '' != password">
+                AND password=#{password}
+            </if>
+            <if test="null != email and '' != email">
+                AND email=#{email}
+            </if>
+            <if test="null != create_time and '' != create_time">
+                AND create_time=#{create_time}
+            </if>
+        </trim>
+    </select>
+</mapper>

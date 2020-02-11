@@ -1,55 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32711c00-82ab-4ff8-a948-0aac91326fc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/HttpDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/ParameterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/threadDemo/Account.java" afterDir="false" />
+    <list default="true" id="871033ac-dc07-4b61-bc9c-28609eb124d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/api/bean/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/api/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/api/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/cn/api/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/mapper/mysql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/mybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/autoApiTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/AddUserCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/GetUserInfoCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/GetUserListCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/InterfaceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/LoginCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/UpdateUserInfoCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/UpdateUserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/config/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/ConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/DatabaseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/databaseConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/CookieDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/GetCookieDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/PostCookieDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/startup.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/startup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/logs/log4j2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/GetCookieDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/GetCookieDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/基本操作说明" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/mockDemo/基本操作说明" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/testNGAnnotationSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/META-INF/demo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/META-INF/demo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/extentReport/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/httpclient/CookieDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/httpclient/PostDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/DataProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/DataProviderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/testNGAnnotation/TestNGAnnotationDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/suite2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/META-INF/demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/httpclient/PostCookieDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/cn/skio/apis/httpclient/PostCookieDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/target/classes/testNGAnnotationSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/testNGAnnotationSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test-output/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -57,52 +172,138 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="/Library/mavenRepository" />
-        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.1/libexec" />
-        <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.6.1/libexec/conf/settings.xml" />
-      </MavenGeneralSettings>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
+  </component>
+  <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="10" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1WCO4DjNCMlw4ZVFI9GONYdVbdB" />
+  <component name="ProjectId" id="1XHKJ9TsRsF2Vxi1LLMKAJhbSN8" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578644806498" />
-    <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.PostCookieDemo.withCookiesPost">
-    <configuration name="GetCookieDemo.getCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/autoApiTest/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AddUserTest.test">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="demo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.skio.apis.httpclient.*" />
+          <option name="PATTERN" value="com.demo.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.GetCookieDemo" />
-      <option name="METHOD_NAME" value="getCookies" />
+      <option name="PACKAGE_NAME" value="com.demo.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.cases.AddUserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddUserTest.addUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.cases.AddUserTest" />
+      <option name="METHOD_NAME" value="addUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,17 +311,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCookieDemo.withCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
+    <configuration name="AddUserTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.skio.apis.httpclient.*" />
+          <option name="PATTERN" value="com.demo.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.GetCookieDemo" />
-      <option name="METHOD_NAME" value="withCookies" />
+      <option name="PACKAGE_NAME" value="com.demo.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.cases.AddUserTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,46 +329,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpDemo.get" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.skio.apis.httpclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.HttpDemo" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostCookieDemo.withCookiesPost" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.skio.apis.httpclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.skio.apis.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="cn.skio.apis.httpclient.PostCookieDemo" />
-      <option name="METHOD_NAME" value="withCookiesPost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/extentReportSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/demo/src/main/resources/extentReportSuite.xml" />
+    <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoApiTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/autoApiTest/src/main/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -175,19 +347,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/extentReportSuite.xml" />
-      <item itemvalue="TestNG.HttpDemo.get" />
-      <item itemvalue="TestNG.GetCookieDemo.getCookies" />
-      <item itemvalue="TestNG.GetCookieDemo.withCookies" />
-      <item itemvalue="TestNG.PostCookieDemo.withCookiesPost" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml" />
+      <item itemvalue="TestNG.AddUserTest" />
+      <item itemvalue="TestNG.AddUserTest.addUser" />
+      <item itemvalue="TestNG.AddUserTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostCookieDemo.withCookiesPost" />
-        <item itemvalue="TestNG.GetCookieDemo.withCookies" />
-        <item itemvalue="TestNG.GetCookieDemo.getCookies" />
-        <item itemvalue="TestNG.HttpDemo.get" />
-        <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/resources/extentReportSuite.xml" />
+        <item itemvalue="TestNG.AddUserTest.test" />
+        <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="TestNG.AddUserTest" />
+        <item itemvalue="TestNG.AddUserTest.addUser" />
       </list>
     </recent_temporary>
   </component>
@@ -208,27 +381,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32711c00-82ab-4ff8-a948-0aac91326fc0" name="Default Changelist" comment="" />
-      <created>1569487625365</created>
+      <changelist id="871033ac-dc07-4b61-bc9c-28609eb124d1" name="Default Changelist" comment="" />
+      <created>1580697505377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569487625365</updated>
-      <workItem from="1569487629835" duration="23208000" />
-      <workItem from="1570612435250" duration="4753000" />
-      <workItem from="1571016342353" duration="14810000" />
-      <workItem from="1571122432291" duration="262000" />
-      <workItem from="1571127073423" duration="29239000" />
-      <workItem from="1571361942694" duration="1382000" />
-      <workItem from="1571967953196" duration="163000" />
-      <workItem from="1576745725868" duration="3094000" />
-      <workItem from="1578548870026" duration="7408000" />
-      <workItem from="1578649927460" duration="350000" />
-      <workItem from="1578703722998" duration="23236000" />
-      <workItem from="1579227269277" duration="477000" />
-      <workItem from="1579228002012" duration="5360000" />
-      <workItem from="1579246172712" duration="16000" />
-      <workItem from="1579568819495" duration="3045000" />
-      <workItem from="1580520704002" duration="15613000" />
+      <updated>1580697505377</updated>
+      <workItem from="1580697509383" duration="120000" />
+      <workItem from="1580729031676" duration="104383000" />
     </task>
     <servers />
   </component>
@@ -236,85 +395,96 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="345" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578650100072">
+    <state x="150" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581160601899">
       <screen x="35" y="23" width="1245" height="777" />
     </state>
-    <state x="345" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/35.23.1245.777@35.23.1245.777" timestamp="1578650100072" />
-    <state x="405" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580182074610">
+    <state x="149" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/34.23.1246.777@34.23.1246.777" timestamp="1581158262909" />
+    <state x="150" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/35.23.1245.777@35.23.1245.777" timestamp="1581160601899" />
+    <state x="662" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1580787410336">
+      <screen x="35" y="23" width="1245" height="777" />
+    </state>
+    <state x="662" y="169" key="#com.intellij.ide.util.MemberChooser/35.23.1245.777@35.23.1245.777" timestamp="1580787410336" />
+    <state width="679" height="438" key="DebuggerActiveHint" timestamp="1581263027776">
       <screen x="34" y="23" width="1246" height="777" />
     </state>
-    <state x="405" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/34.23.1246.777@34.23.1246.777" timestamp="1580182074610" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1580626395869">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="679" height="438" key="DebuggerActiveHint/34.23.1246.777@34.23.1246.777" timestamp="1581263027776" />
+    <state width="1203" height="178" key="GridCell.Tab.0.bottom" timestamp="1581263378673">
+      <screen x="34" y="23" width="1246" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580626395869" />
-    <state width="1183" height="184" key="GridCell.Tab.0.bottom/34.23.1246.777@34.23.1246.777" timestamp="1578991370916" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom/35.23.1245.777@35.23.1245.777" timestamp="1580624323130" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1580626395867">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="274" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581142281431" />
+    <state width="1203" height="178" key="GridCell.Tab.0.bottom/34.23.1246.777@34.23.1246.777" timestamp="1581263378673" />
+    <state width="1203" height="178" key="GridCell.Tab.0.bottom/35.23.1245.777@35.23.1245.777" timestamp="1581261507470" />
+    <state width="1203" height="178" key="GridCell.Tab.0.center" timestamp="1581263378672">
+      <screen x="34" y="23" width="1246" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580626395867" />
-    <state width="1183" height="184" key="GridCell.Tab.0.center/34.23.1246.777@34.23.1246.777" timestamp="1578991370914" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center/35.23.1245.777@35.23.1245.777" timestamp="1580624323128" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1580626395865">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="274" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581142281429" />
+    <state width="1203" height="178" key="GridCell.Tab.0.center/34.23.1246.777@34.23.1246.777" timestamp="1581263378672" />
+    <state width="1203" height="178" key="GridCell.Tab.0.center/35.23.1245.777@35.23.1245.777" timestamp="1581261507468" />
+    <state width="1203" height="178" key="GridCell.Tab.0.left" timestamp="1581263378672">
+      <screen x="34" y="23" width="1246" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580626395865" />
-    <state width="1183" height="184" key="GridCell.Tab.0.left/34.23.1246.777@34.23.1246.777" timestamp="1578991370914" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left/35.23.1245.777@35.23.1245.777" timestamp="1580624323128" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1580626395868">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="274" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581142281424" />
+    <state width="1203" height="178" key="GridCell.Tab.0.left/34.23.1246.777@34.23.1246.777" timestamp="1581263378672" />
+    <state width="1203" height="178" key="GridCell.Tab.0.left/35.23.1245.777@35.23.1245.777" timestamp="1581261507467" />
+    <state width="1203" height="178" key="GridCell.Tab.0.right" timestamp="1581263378673">
+      <screen x="34" y="23" width="1246" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580626395868" />
-    <state width="1183" height="184" key="GridCell.Tab.0.right/34.23.1246.777@34.23.1246.777" timestamp="1578991370915" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right/35.23.1245.777@35.23.1245.777" timestamp="1580624323129" />
-    <state width="1183" height="229" key="GridCell.Tab.1.bottom" timestamp="1580555010885">
+    <state width="1238" height="274" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581142281430" />
+    <state width="1203" height="178" key="GridCell.Tab.0.right/34.23.1246.777@34.23.1246.777" timestamp="1581263378673" />
+    <state width="1203" height="178" key="GridCell.Tab.0.right/35.23.1245.777@35.23.1245.777" timestamp="1581261507469" />
+    <state width="1203" height="178" key="GridCell.Tab.1.bottom" timestamp="1581263380603">
+      <screen x="34" y="23" width="1246" height="777" />
+    </state>
+    <state width="1238" height="274" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581142289881" />
+    <state width="1203" height="178" key="GridCell.Tab.1.bottom/34.23.1246.777@34.23.1246.777" timestamp="1581263380603" />
+    <state width="1203" height="178" key="GridCell.Tab.1.bottom/35.23.1245.777@35.23.1245.777" timestamp="1581261509502" />
+    <state width="1203" height="178" key="GridCell.Tab.1.center" timestamp="1581263380601">
+      <screen x="34" y="23" width="1246" height="777" />
+    </state>
+    <state width="1238" height="274" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581142289880" />
+    <state width="1203" height="178" key="GridCell.Tab.1.center/34.23.1246.777@34.23.1246.777" timestamp="1581263380601" />
+    <state width="1203" height="178" key="GridCell.Tab.1.center/35.23.1245.777@35.23.1245.777" timestamp="1581261509501" />
+    <state width="1203" height="178" key="GridCell.Tab.1.left" timestamp="1581263380601">
+      <screen x="34" y="23" width="1246" height="777" />
+    </state>
+    <state width="1238" height="274" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581142289879" />
+    <state width="1203" height="178" key="GridCell.Tab.1.left/34.23.1246.777@34.23.1246.777" timestamp="1581263380601" />
+    <state width="1203" height="178" key="GridCell.Tab.1.left/35.23.1245.777@35.23.1245.777" timestamp="1581261509501" />
+    <state width="1203" height="178" key="GridCell.Tab.1.right" timestamp="1581263380602">
+      <screen x="34" y="23" width="1246" height="777" />
+    </state>
+    <state width="1238" height="274" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581142289880" />
+    <state width="1203" height="178" key="GridCell.Tab.1.right/34.23.1246.777@34.23.1246.777" timestamp="1581263380602" />
+    <state width="1203" height="178" key="GridCell.Tab.1.right/35.23.1245.777@35.23.1245.777" timestamp="1581261509501" />
+    <state x="171" y="23" key="SettingsEditor" timestamp="1581161360071">
+      <screen x="34" y="23" width="1246" height="777" />
+    </state>
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1581131247329" />
+    <state x="171" y="23" key="SettingsEditor/34.23.1246.777@34.23.1246.777" timestamp="1581161360071" />
+    <state x="172" y="23" key="SettingsEditor/35.23.1245.777@35.23.1245.777" timestamp="1581161298793" />
+    <state width="300" height="37" key="javadoc.popup.new" timestamp="1581263350590">
+      <screen x="34" y="23" width="1246" height="777" />
+    </state>
+    <state width="300" height="37" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1581140398108" />
+    <state width="300" height="37" key="javadoc.popup.new/34.23.1246.777@34.23.1246.777" timestamp="1581263350590" />
+    <state width="300" height="37" key="javadoc.popup.new/35.23.1245.777@35.23.1245.777" timestamp="1581262811773" />
+    <state x="35" y="98" key="new project wizard" timestamp="1580803417722">
       <screen x="35" y="23" width="1245" height="777" />
     </state>
-    <state width="1183" height="229" key="GridCell.Tab.1.bottom/35.23.1245.777@35.23.1245.777" timestamp="1580555010885" />
-    <state width="1183" height="229" key="GridCell.Tab.1.center" timestamp="1580555010884">
+    <state x="35" y="98" key="new project wizard/35.23.1245.777@35.23.1245.777" timestamp="1580803417722" />
+    <state x="287" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1581150140486">
       <screen x="35" y="23" width="1245" height="777" />
     </state>
-    <state width="1183" height="229" key="GridCell.Tab.1.center/35.23.1245.777@35.23.1245.777" timestamp="1580555010884" />
-    <state width="1183" height="229" key="GridCell.Tab.1.left" timestamp="1580555010883">
-      <screen x="35" y="23" width="1245" height="777" />
-    </state>
-    <state width="1183" height="229" key="GridCell.Tab.1.left/35.23.1245.777@35.23.1245.777" timestamp="1580555010883" />
-    <state width="1183" height="229" key="GridCell.Tab.1.right" timestamp="1580555010885">
-      <screen x="35" y="23" width="1245" height="777" />
-    </state>
-    <state width="1183" height="229" key="GridCell.Tab.1.right/35.23.1245.777@35.23.1245.777" timestamp="1580555010885" />
-    <state x="127" y="0" key="SettingsEditor" timestamp="1580623034511">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="127" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1580623034511" />
-    <state x="159" y="23" key="SettingsEditor/35.23.1245.777@35.23.1245.777" timestamp="1580563982649" />
-    <state x="334" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1580525107897">
-      <screen x="35" y="23" width="1245" height="777" />
-    </state>
-    <state x="334" y="244" key="com.intellij.ide.util.TipDialog/35.23.1245.777@35.23.1245.777" timestamp="1580525107897" />
-    <state width="309" height="39" key="javadoc.popup.new" timestamp="1580623911677">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="309" height="39" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1580623911677" />
-    <state width="301" height="37" key="javadoc.popup.new/34.23.1246.777@34.23.1246.777" timestamp="1580181887677" />
-    <state width="300" height="37" key="javadoc.popup.new/35.23.1245.777@35.23.1245.777" timestamp="1580563867673" />
-    <state x="305" y="104" width="689" height="697" key="search.everywhere.popup" timestamp="1580623505398">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="104" width="689" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1580623505398" />
-    <state x="332" y="124" width="670" height="676" key="search.everywhere.popup/35.23.1245.777@35.23.1245.777" timestamp="1580563801040" />
+    <state x="286" y="124" width="671" height="676" key="search.everywhere.popup/34.23.1246.777@34.23.1246.777" timestamp="1580813365738" />
+    <state x="287" y="124" width="670" height="676" key="search.everywhere.popup/35.23.1245.777@35.23.1245.777" timestamp="1581150140486" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/demo/src/main/java/cn/skio/apis/httpclient/HttpDemo.java</url>
-          <line>19</line>
-          <properties class="cn.skio.apis.httpclient.HttpDemo" method="get">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

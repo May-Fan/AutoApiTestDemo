@@ -1,0 +1,25 @@
+server:
+  port: 6868
+
+#配置日志文件输出路径
+#如果xml文件中有配置路径，则以配置文件为准
+logging:
+  file:
+    path: /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/logs
+
+spring:
+  application:
+    name: dev
+  #配置mysql数据库
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/apiTest
+    username: root
+    password:
+
+mybatis:
+  #配置启动mybatis时所需的java bean的路径，用于映射
+  type-aliases-package: cn.api.bean
+  #配置存放sql语句的路径
+  mapper-locations:
+    - mapper/*

@@ -67,7 +67,7 @@ public class GetCookieDemo {
   public void withCookies() throws IOException {
     //声明一个HttpGet对象，并配置接口url
     HttpGet httpGet_2 = new HttpGet(this.url + "/withCookies");
-    //也可在底层请求中配置cookie信息，key-value对之间用;分隔
+    //也可在低层请求中配置cookie信息，key-value对之间用;分隔
     //httpGet_2.setHeader("Cookie","age=17;name=1;sex=female");
     HttpResponse response2 = httpClient.execute(httpGet_2);
 

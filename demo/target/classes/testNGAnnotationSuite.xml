@@ -21,5 +21,4 @@
             <class name="cn.skio.apis.testNGAnnotation.ParameterDemo" />
         </classes>
     </test>
-
 </suite>

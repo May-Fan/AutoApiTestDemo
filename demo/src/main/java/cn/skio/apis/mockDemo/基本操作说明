@@ -1,3 +1,5 @@
 java -jar ./moco-runner-1.0.0-standalone.jar http -p 8899 -c startup.json
 
-cd进入mockDemo目录下，然后在命令行中黏贴上述代码，回车后即可运行moco-runner
+cd到mockDemo目录下，在命令行中黏贴上述代码，回车后即可运行moco-runner
+
+/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/demo/src/main/java/cn/skio/apis/mockDemo
