@@ -69,5 +69,6 @@ public class GetUserInfoTest {
     //3.3根据json字符串的符号，自动划分数组元素，result="[{"id":1,"username":"彭于晏","password":"123456"}]"
     JSONArray array = JSONArray.parseArray(result);
     return array;
+
   }
 }

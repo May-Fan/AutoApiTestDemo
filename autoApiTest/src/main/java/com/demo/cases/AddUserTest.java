@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @program: AutoApiTestDemo
@@ -76,17 +77,5 @@ public class AddUserTest {
     String result = EntityUtils.toString(response.getEntity(),"utf-8");
     return result;
   }
-  @Test
-  public void test(){
-    String str1 = "[{\"id\":1,\"username\":\"袁野\",\"password\":\"123456\",\"career\":\"student\"}," +
-            "{\"id\":2,\"username\":\"方辉\",\"password\":\"123456\",\"career\":\"teacher\"}," +
-            "{\"id\":3,\"username\":\"常昕\",\"password\":\"123456\",\"career\":\"teacher\"}]";
-//    String[] arr = str1.substring(1,str1.length()-1).split(",");
 
-    JSONArray jsonArray = JSONArray.parseArray(str1);
-    JSONObject jsonObject = jsonArray.getJSONObject(0);
-    for(Object obj:jsonArray) {
-      JSONObject o = JSONObject.parseObject(obj.toString());
-    }
-  }
 }
