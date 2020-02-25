@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871033ac-dc07-4b61-bc9c-28609eb124d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/META-INF/api.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/api/bean/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/cn/api/bean/LoginUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/api/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/cn/api/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/api/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/cn/api/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/cn/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/cn/api/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/autoApiTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/autoApiTest-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/AddUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +239,7 @@
       <workItem from="1580697509383" duration="120000" />
       <workItem from="1580729031676" duration="106854000" />
       <workItem from="1581593148517" duration="6537000" />
-      <workItem from="1582190235369" duration="1586000" />
+      <workItem from="1582190235369" duration="2108000" />
     </task>
     <servers />
   </component>
@@ -273,34 +260,34 @@
       <screen x="34" y="23" width="1246" height="777" />
     </state>
     <state width="679" height="438" key="DebuggerActiveHint/34.23.1246.777@34.23.1246.777" timestamp="1581263027776" />
-    <state width="1201" height="182" key="GridCell.Tab.0.bottom" timestamp="1582190789702">
+    <state width="1201" height="182" key="GridCell.Tab.0.bottom" timestamp="1582445024943">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581142281431" />
     <state width="1203" height="178" key="GridCell.Tab.0.bottom/34.23.1246.777@34.23.1246.777" timestamp="1581263378673" />
     <state width="1203" height="178" key="GridCell.Tab.0.bottom/35.23.1245.777@35.23.1245.777" timestamp="1581664752158" />
-    <state width="1201" height="182" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1582190789702" />
-    <state width="1201" height="182" key="GridCell.Tab.0.center" timestamp="1582190789665">
+    <state width="1201" height="182" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1582445024943" />
+    <state width="1201" height="182" key="GridCell.Tab.0.center" timestamp="1582445024942">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581142281429" />
     <state width="1203" height="178" key="GridCell.Tab.0.center/34.23.1246.777@34.23.1246.777" timestamp="1581263378672" />
     <state width="1203" height="178" key="GridCell.Tab.0.center/35.23.1245.777@35.23.1245.777" timestamp="1581664752150" />
-    <state width="1201" height="182" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1582190789665" />
-    <state width="1201" height="182" key="GridCell.Tab.0.left" timestamp="1582190789664">
+    <state width="1201" height="182" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1582445024942" />
+    <state width="1201" height="182" key="GridCell.Tab.0.left" timestamp="1582445024941">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581142281424" />
     <state width="1203" height="178" key="GridCell.Tab.0.left/34.23.1246.777@34.23.1246.777" timestamp="1581263378672" />
     <state width="1203" height="178" key="GridCell.Tab.0.left/35.23.1245.777@35.23.1245.777" timestamp="1581664752146" />
-    <state width="1201" height="182" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1582190789664" />
-    <state width="1201" height="182" key="GridCell.Tab.0.right" timestamp="1582190789700">
+    <state width="1201" height="182" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1582445024941" />
+    <state width="1201" height="182" key="GridCell.Tab.0.right" timestamp="1582445024942">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581142281430" />
     <state width="1203" height="178" key="GridCell.Tab.0.right/34.23.1246.777@34.23.1246.777" timestamp="1581263378673" />
     <state width="1203" height="178" key="GridCell.Tab.0.right/35.23.1245.777@35.23.1245.777" timestamp="1581664752155" />
-    <state width="1201" height="182" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1582190789700" />
+    <state width="1201" height="182" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1582445024942" />
     <state width="1203" height="178" key="GridCell.Tab.1.bottom" timestamp="1582091701466">
       <screen x="37" y="23" width="1243" height="777" />
     </state>

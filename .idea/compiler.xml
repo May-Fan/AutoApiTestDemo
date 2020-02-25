@@ -12,7 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="10">
-      <module name="api" target="10" />
+      <module name="api" target="1.8" />
       <module name="autoApiTest" target="10" />
       <module name="demo" target="1.5" />
     </bytecodeTargetLevel>
