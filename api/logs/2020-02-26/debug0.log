@@ -50,3 +50,45 @@
 2020-02-26 14:34:32.963 [http-nio-6868-exec-9] INFO  cn.api.controller.UserController - 新增用户失败！
 2020-02-26 14:35:05.570 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
 2020-02-26 14:35:05.573 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-26 15:38:57.863 [main] INFO  cn.Application - Starting Application v1.0-SNAPSHOT on xjtdeMacBook-Pro.local with PID 7451 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/api-1.0-SNAPSHOT.jar started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target)
+2020-02-26 15:38:57.872 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
+2020-02-26 15:38:59.508 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-02-26 15:39:00.256 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-26 15:39:00.837 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
+2020-02-26 15:39:00.879 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6868"]
+2020-02-26 15:39:00.880 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-26 15:39:00.881 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-26 15:39:01.005 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-02-26 15:39:01.005 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2973 ms
+2020-02-26 15:39:02.172 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-26 15:39:02.393 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-26 15:39:02.707 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-02-26 15:39:02.783 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-26 15:39:02.859 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-26 15:39:02.939 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-26 15:39:03.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
+2020-02-26 15:39:03.561 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
+2020-02-26 15:39:03.571 [main] INFO  cn.Application - Started Application in 6.906 seconds (JVM running for 8.147)
+2020-02-26 15:39:11.511 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-02-26 15:39:11.513 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-26 15:40:39.820 [main] INFO  cn.Application - Starting Application on xjtdeMacBook-Pro.local with PID 8164 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
+2020-02-26 15:40:39.827 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
+2020-02-26 15:40:42.752 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-02-26 15:40:44.108 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-26 15:40:44.947 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
+2020-02-26 15:40:44.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6868"]
+2020-02-26 15:40:44.984 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-26 15:40:44.985 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-26 15:40:45.315 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-02-26 15:40:45.316 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5320 ms
+2020-02-26 15:40:48.089 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-26 15:40:48.572 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-26 15:40:49.332 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-02-26 15:40:49.457 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-26 15:40:49.512 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-26 15:40:49.597 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-26 15:40:50.321 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
+2020-02-26 15:40:50.368 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
+2020-02-26 15:40:50.376 [main] INFO  cn.Application - Started Application in 12.965 seconds (JVM running for 15.5)
+2020-02-26 15:40:53.871 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-02-26 15:40:53.893 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
