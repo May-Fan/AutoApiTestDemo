@@ -7,10 +7,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -31,6 +28,12 @@ import java.util.Objects;
 public class UserController {
   @Autowired
   private SqlSessionTemplate template;
+
+  @GetMapping("/test")
+  @ApiOperation(value = "测试连接是否通畅",httpMethod = "GET")
+  public String test() {
+    return "Hi,你的服务正在运行中";
+  }
 
   @PostMapping("/login")
   @ApiOperation(value = "登录接口",httpMethod = "POST")
