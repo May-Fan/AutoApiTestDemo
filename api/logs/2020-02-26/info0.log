@@ -92,3 +92,63 @@
 2020-02-26 15:40:50.376 [main] INFO  cn.Application - Started Application in 12.965 seconds (JVM running for 15.5)
 2020-02-26 15:40:53.871 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
 2020-02-26 15:40:53.893 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-26 16:03:13.776 [main] INFO  cn.Application - Starting Application on xjtdeMacBook-Pro.local with PID 17600 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
+2020-02-26 16:03:13.793 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
+2020-02-26 16:03:15.727 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-02-26 16:03:16.614 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-26 16:03:17.337 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
+2020-02-26 16:03:17.357 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6868"]
+2020-02-26 16:03:17.359 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-26 16:03:17.359 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-26 16:03:17.760 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-02-26 16:03:17.761 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3827 ms
+2020-02-26 16:03:19.253 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-26 16:03:19.456 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-26 16:03:19.793 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-02-26 16:03:19.847 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-26 16:03:19.882 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-26 16:03:19.940 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-26 16:03:20.874 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
+2020-02-26 16:03:20.958 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
+2020-02-26 16:03:20.974 [main] INFO  cn.Application - Started Application in 8.806 seconds (JVM running for 11.947)
+2020-02-26 16:03:43.930 [http-nio-6868-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-26 16:03:43.937 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-26 16:03:43.991 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 52 ms
+2020-02-26 16:03:44.195 [http-nio-6868-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-26 16:03:45.093 [http-nio-6868-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-26 16:03:45.255 [http-nio-6868-exec-1] INFO  cn.api.controller.UserController - 可查询到当前用户名:彭于晏
+2020-02-26 16:03:45.479 [http-nio-6868-exec-2] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:03:45.508 [http-nio-6868-exec-2] INFO  cn.api.controller.UserController - 新增用户：李燃成功！
+2020-02-26 16:03:48.668 [http-nio-6868-exec-3] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:03:48.725 [http-nio-6868-exec-3] INFO  cn.api.controller.UserController - 更新成功，更新数据为1条
+2020-02-26 16:03:48.929 [http-nio-6868-exec-4] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:03:48.934 [http-nio-6868-exec-4] INFO  cn.api.controller.UserController - 可查询到1个用户
+2020-02-26 16:03:49.152 [http-nio-6868-exec-5] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:03:49.156 [http-nio-6868-exec-5] INFO  cn.api.controller.UserController - 可查询到2个用户
+2020-02-26 16:08:34.551 [http-nio-6868-exec-7] INFO  cn.api.controller.UserController - 可查询到当前用户名:彭于晏
+2020-02-26 16:08:34.809 [http-nio-6868-exec-8] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:08:34.818 [http-nio-6868-exec-8] INFO  cn.api.controller.UserController - 新增用户：王刚成功！
+2020-02-26 16:08:37.955 [http-nio-6868-exec-9] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:08:37.973 [http-nio-6868-exec-9] INFO  cn.api.controller.UserController - 更新成功，更新数据为1条
+2020-02-26 16:08:38.230 [http-nio-6868-exec-10] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:08:38.245 [http-nio-6868-exec-10] INFO  cn.api.controller.UserController - 可查询到1个用户
+2020-02-26 16:08:38.512 [http-nio-6868-exec-1] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:08:38.518 [http-nio-6868-exec-1] INFO  cn.api.controller.UserController - 可查询到2个用户
+2020-02-26 16:25:34.251 [http-nio-6868-exec-3] INFO  cn.api.controller.UserController - 可查询到当前用户名:彭于晏
+2020-02-26 16:25:34.474 [http-nio-6868-exec-4] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:25:34.482 [http-nio-6868-exec-4] INFO  cn.api.controller.UserController - 新增用户：沈珍珠成功！
+2020-02-26 16:25:37.603 [http-nio-6868-exec-5] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:25:37.613 [http-nio-6868-exec-5] INFO  cn.api.controller.UserController - 更新成功，更新数据为1条
+2020-02-26 16:25:37.797 [http-nio-6868-exec-6] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:25:37.805 [http-nio-6868-exec-6] INFO  cn.api.controller.UserController - 可查询到1个用户
+2020-02-26 16:25:37.995 [http-nio-6868-exec-7] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:25:38.005 [http-nio-6868-exec-7] INFO  cn.api.controller.UserController - 可查询到2个用户
+2020-02-26 16:38:34.277 [http-nio-6868-exec-9] INFO  cn.api.controller.UserController - 可查询到当前用户名:彭于晏
+2020-02-26 16:38:34.521 [http-nio-6868-exec-10] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:38:34.531 [http-nio-6868-exec-10] INFO  cn.api.controller.UserController - 新增用户：李燃成功！
+2020-02-26 16:38:37.612 [http-nio-6868-exec-1] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:38:37.625 [http-nio-6868-exec-1] INFO  cn.api.controller.UserController - 更新成功，更新数据为1条
+2020-02-26 16:38:37.740 [http-nio-6868-exec-2] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:38:37.743 [http-nio-6868-exec-2] INFO  cn.api.controller.UserController - 可查询到1个用户
+2020-02-26 16:38:37.927 [http-nio-6868-exec-3] INFO  cn.api.controller.UserController - cookies验证通过
+2020-02-26 16:38:37.931 [http-nio-6868-exec-3] INFO  cn.api.controller.UserController - 可查询到2个用户
