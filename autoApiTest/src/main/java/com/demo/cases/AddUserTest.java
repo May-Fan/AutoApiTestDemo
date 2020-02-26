@@ -1,10 +1,7 @@
 package com.demo.cases;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.demo.bean.AddUserCase;
-import com.demo.bean.User;
 import com.demo.config.TestConfig;
 import com.demo.utils.DatabaseUtil;
 import org.apache.http.HttpResponse;
@@ -16,10 +13,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @program: AutoApiTestDemo
@@ -41,8 +34,8 @@ public class AddUserTest {
     //1--->2获取新增结果时，接口线程和接口测试线程抢占资源，等待接口线程执行完毕后再判断
     Thread.sleep(3000);
     //2.根据传递给接口的对象，查询user表，获取并打印接口新增的用户
-    User user = session.selectOne("getAddUser",addUserCase.getUserId());
-    System.out.println(user.toString());
+    //User user = session.selectOne("getAddUser",addUserCase);
+    //System.out.println(user.toString());
     //3.将预期和接口实际返回值作比较
     Assert.assertEquals(addUserCase.getExpected(),result);
  }

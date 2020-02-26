@@ -15,7 +15,7 @@
     <select id="addUserCase" parameterType="Integer" resultType="com.demo.bean.AddUserCase">
         select * from apiTest.addUserCase where id = #{id};
     </select>
-    <select id="getAddUser" parameterType="Integer" resultType="com.demo.bean.User">
+    <select id="getAddUser" parameterType="com.demo.bean.AddUserCase" resultType="com.demo.bean.User">
         select * from apiTest.user where id=#{userId};
     </select>
     <!--ok更新用户case-->
