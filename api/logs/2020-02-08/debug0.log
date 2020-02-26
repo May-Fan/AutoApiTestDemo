@@ -1452,8 +1452,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 12:16:07.486 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-02-08 12:16:07.517 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2020-02-08 12:16:07.550 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2020-02-08 12:16:20.113 [main] INFO  Application - Starting Application on xjtdeMacBook-Pro.local with PID 28863 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
-2020-02-08 12:16:20.122 [main] INFO  Application - No active profile set, falling back to default profiles: default
+2020-02-08 12:16:20.113 [main] INFO  cn.Application - Starting cn.Application on xjtdeMacBook-Pro.local with PID 28863 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
+2020-02-08 12:16:20.122 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
 2020-02-08 12:16:23.134 [main] WARN  org.springframework.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
 2020-02-08 12:16:25.302 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2020-02-08 12:16:26.040 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
@@ -1470,7 +1470,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 12:16:28.890 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2020-02-08 12:16:29.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
 2020-02-08 12:16:29.566 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
-2020-02-08 12:16:29.576 [main] INFO  Application - Started Application in 11.519 seconds (JVM running for 13.871)
+2020-02-08 12:16:29.576 [main] INFO  cn.Application - Started cn.Application in 11.519 seconds (JVM running for 13.871)
 2020-02-08 12:18:31.924 [http-nio-6868-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-02-08 12:18:31.927 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-02-08 12:18:31.959 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 31 ms
@@ -1481,8 +1481,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 12:18:57.062 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-02-08 12:18:57.067 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2020-02-08 12:18:57.081 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2020-02-08 12:19:13.420 [main] INFO  Application - Starting Application on xjtdeMacBook-Pro.local with PID 30060 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
-2020-02-08 12:19:13.426 [main] INFO  Application - No active profile set, falling back to default profiles: default
+2020-02-08 12:19:13.420 [main] INFO  cn.Application - Starting cn.Application on xjtdeMacBook-Pro.local with PID 30060 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
+2020-02-08 12:19:13.426 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
 2020-02-08 12:19:16.948 [main] WARN  org.springframework.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
 2020-02-08 12:19:17.868 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2020-02-08 12:19:18.553 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
@@ -1499,7 +1499,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 12:19:21.840 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2020-02-08 12:19:22.481 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
 2020-02-08 12:19:22.546 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
-2020-02-08 12:19:22.557 [main] INFO  Application - Started Application in 11.66 seconds (JVM running for 15.216)
+2020-02-08 12:19:22.557 [main] INFO  cn.Application - Started cn.Application in 11.66 seconds (JVM running for 15.216)
 2020-02-08 12:19:27.972 [http-nio-6868-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-02-08 12:19:27.976 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-02-08 12:19:28.004 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
@@ -1511,8 +1511,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 12:21:39.263 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-02-08 12:21:39.269 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2020-02-08 12:21:39.374 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2020-02-08 12:21:56.231 [main] INFO  Application - Starting Application on xjtdeMacBook-Pro.local with PID 31186 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
-2020-02-08 12:21:56.243 [main] INFO  Application - No active profile set, falling back to default profiles: default
+2020-02-08 12:21:56.231 [main] INFO  cn.Application - Starting cn.Application on xjtdeMacBook-Pro.local with PID 31186 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
+2020-02-08 12:21:56.243 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
 2020-02-08 12:21:58.430 [main] WARN  org.springframework.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
 2020-02-08 12:21:59.414 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2020-02-08 12:22:00.562 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
@@ -1529,7 +1529,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 12:22:03.563 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2020-02-08 12:22:04.074 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
 2020-02-08 12:22:04.141 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
-2020-02-08 12:22:04.154 [main] INFO  Application - Started Application in 10.025 seconds (JVM running for 13.279)
+2020-02-08 12:22:04.154 [main] INFO  cn.Application - Started cn.Application in 10.025 seconds (JVM running for 13.279)
 2020-02-08 12:32:56.460 [http-nio-6868-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-02-08 12:32:56.462 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-02-08 12:32:56.486 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
@@ -4656,8 +4656,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 17:27:52.753 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-02-08 17:27:52.897 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2020-02-08 17:27:52.916 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2020-02-08 18:23:40.662 [main] INFO  Application - Starting Application on xjtdeMacBook-Pro.local with PID 78421 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
-2020-02-08 18:23:40.683 [main] INFO  Application - No active profile set, falling back to default profiles: default
+2020-02-08 18:23:40.662 [main] INFO  cn.Application - Starting cn.Application on xjtdeMacBook-Pro.local with PID 78421 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
+2020-02-08 18:23:40.683 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
 2020-02-08 18:23:42.822 [main] WARN  org.springframework.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
 2020-02-08 18:23:43.885 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2020-02-08 18:23:44.829 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
@@ -4674,7 +4674,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 18:23:49.634 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2020-02-08 18:23:50.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
 2020-02-08 18:23:50.203 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
-2020-02-08 18:23:50.212 [main] INFO  Application - Started Application in 11.22 seconds (JVM running for 14.118)
+2020-02-08 18:23:50.212 [main] INFO  cn.Application - Started cn.Application in 11.22 seconds (JVM running for 14.118)
 2020-02-08 18:24:18.279 [http-nio-6868-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-02-08 18:24:18.294 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-02-08 18:24:18.341 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 46 ms
@@ -4773,8 +4773,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 18:25:16.000 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-02-08 18:25:16.006 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2020-02-08 18:25:16.027 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2020-02-08 18:26:17.140 [main] INFO  Application - Starting Application on xjtdeMacBook-Pro.local with PID 79495 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
-2020-02-08 18:26:17.149 [main] INFO  Application - No active profile set, falling back to default profiles: default
+2020-02-08 18:26:17.140 [main] INFO  cn.Application - Starting cn.Application on xjtdeMacBook-Pro.local with PID 79495 (/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/api/target/classes started by fanlilin in /Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo)
+2020-02-08 18:26:17.149 [main] INFO  cn.Application - No active profile set, falling back to default profiles: default
 2020-02-08 18:26:20.256 [main] WARN  org.springframework.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
 2020-02-08 18:26:21.117 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2020-02-08 18:26:21.814 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6868 (http)
@@ -4791,7 +4791,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key '
 2020-02-08 18:26:24.262 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
 2020-02-08 18:26:24.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6868"]
 2020-02-08 18:26:24.914 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6868 (http) with context path ''
-2020-02-08 18:26:24.924 [main] INFO  Application - Started Application in 9.554 seconds (JVM running for 11.556)
+2020-02-08 18:26:24.924 [main] INFO  cn.Application - Started cn.Application in 9.554 seconds (JVM running for 11.556)
 2020-02-08 18:26:46.823 [http-nio-6868-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-02-08 18:26:46.826 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-02-08 18:26:46.848 [http-nio-6868-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms

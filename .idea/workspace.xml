@@ -4,7 +4,13 @@
     <list default="true" id="871033ac-dc07-4b61-bc9c-28609eb124d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-07/debug0.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/2020-02-07/debug0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-07/info0.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/2020-02-07/info0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-08/debug0.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/2020-02-08/debug0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-08/info0.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/2020-02-08/info0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cn/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/Application.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +70,9 @@
       <recent name="$PROJECT_DIR$/autoApiTest/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddUserTest.test">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application" />
+      <option name="MAIN_CLASS_NAME" value="cn.Application" />
       <module name="api" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,7 +127,7 @@
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,9 +212,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="TestNG.AddUserTest.test" />
         <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml" />
-        <item itemvalue="Application.Application" />
         <item itemvalue="TestNG.AddUserTest" />
         <item itemvalue="TestNG.AddUserTest.addUser" />
       </list>
@@ -239,7 +245,7 @@
       <workItem from="1580697509383" duration="120000" />
       <workItem from="1580729031676" duration="106854000" />
       <workItem from="1581593148517" duration="6537000" />
-      <workItem from="1582190235369" duration="2108000" />
+      <workItem from="1582190235369" duration="3511000" />
     </task>
     <servers />
   </component>
@@ -260,34 +266,34 @@
       <screen x="34" y="23" width="1246" height="777" />
     </state>
     <state width="679" height="438" key="DebuggerActiveHint/34.23.1246.777@34.23.1246.777" timestamp="1581263027776" />
-    <state width="1201" height="182" key="GridCell.Tab.0.bottom" timestamp="1582445024943">
+    <state width="1201" height="182" key="GridCell.Tab.0.bottom" timestamp="1582698423542">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581142281431" />
     <state width="1203" height="178" key="GridCell.Tab.0.bottom/34.23.1246.777@34.23.1246.777" timestamp="1581263378673" />
     <state width="1203" height="178" key="GridCell.Tab.0.bottom/35.23.1245.777@35.23.1245.777" timestamp="1581664752158" />
-    <state width="1201" height="182" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1582445024943" />
-    <state width="1201" height="182" key="GridCell.Tab.0.center" timestamp="1582445024942">
+    <state width="1201" height="182" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1582698423542" />
+    <state width="1201" height="182" key="GridCell.Tab.0.center" timestamp="1582698423541">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581142281429" />
     <state width="1203" height="178" key="GridCell.Tab.0.center/34.23.1246.777@34.23.1246.777" timestamp="1581263378672" />
     <state width="1203" height="178" key="GridCell.Tab.0.center/35.23.1245.777@35.23.1245.777" timestamp="1581664752150" />
-    <state width="1201" height="182" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1582445024942" />
-    <state width="1201" height="182" key="GridCell.Tab.0.left" timestamp="1582445024941">
+    <state width="1201" height="182" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1582698423541" />
+    <state width="1201" height="182" key="GridCell.Tab.0.left" timestamp="1582698423540">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581142281424" />
     <state width="1203" height="178" key="GridCell.Tab.0.left/34.23.1246.777@34.23.1246.777" timestamp="1581263378672" />
     <state width="1203" height="178" key="GridCell.Tab.0.left/35.23.1245.777@35.23.1245.777" timestamp="1581664752146" />
-    <state width="1201" height="182" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1582445024941" />
-    <state width="1201" height="182" key="GridCell.Tab.0.right" timestamp="1582445024942">
+    <state width="1201" height="182" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1582698423540" />
+    <state width="1201" height="182" key="GridCell.Tab.0.right" timestamp="1582698423541">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="1238" height="274" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581142281430" />
     <state width="1203" height="178" key="GridCell.Tab.0.right/34.23.1246.777@34.23.1246.777" timestamp="1581263378673" />
     <state width="1203" height="178" key="GridCell.Tab.0.right/35.23.1245.777@35.23.1245.777" timestamp="1581664752155" />
-    <state width="1201" height="182" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1582445024942" />
+    <state width="1201" height="182" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1582698423541" />
     <state width="1203" height="178" key="GridCell.Tab.1.bottom" timestamp="1582091701466">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
@@ -327,13 +333,13 @@
     </state>
     <state x="334" y="244" key="com.intellij.ide.util.TipDialog/35.23.1245.777@35.23.1245.777" timestamp="1581593147464" />
     <state x="336" y="244" key="com.intellij.ide.util.TipDialog/37.23.1243.777@37.23.1243.777" timestamp="1582190234337" />
-    <state width="300" height="37" key="javadoc.popup.new" timestamp="1582015532025">
+    <state width="300" height="37" key="javadoc.popup.new" timestamp="1582698304390">
       <screen x="37" y="23" width="1243" height="777" />
     </state>
     <state width="300" height="37" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1581140398108" />
     <state width="300" height="37" key="javadoc.popup.new/34.23.1246.777@34.23.1246.777" timestamp="1581263350590" />
     <state width="300" height="37" key="javadoc.popup.new/35.23.1245.777@35.23.1245.777" timestamp="1581751101428" />
-    <state width="300" height="37" key="javadoc.popup.new/37.23.1243.777@37.23.1243.777" timestamp="1582015532025" />
+    <state width="300" height="37" key="javadoc.popup.new/37.23.1243.777@37.23.1243.777" timestamp="1582698304390" />
     <state x="35" y="98" key="new project wizard" timestamp="1580803417722">
       <screen x="35" y="23" width="1245" height="777" />
     </state>
