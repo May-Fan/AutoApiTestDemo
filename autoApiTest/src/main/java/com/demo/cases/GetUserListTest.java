@@ -8,6 +8,7 @@ import com.demo.bean.UpdateUserInfoCase;
 import com.demo.bean.User;
 import com.demo.config.TestConfig;
 import com.demo.utils.DatabaseUtil;
+import com.demo.utils.HttpClientUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
@@ -58,20 +59,13 @@ public class GetUserListTest {
    * @throws IOException
    */
   public JSONArray getJsonResult(GetUserListCase getUserListCase) throws IOException {
-    //1.声明post请求，放请求url
-    HttpPost post = new HttpPost(TestConfig.getUserListUrl);
-    //2.1声明定义请求参数，为userListCase表中的测试数据
+    //1.声明定义请求参数，为userListCase表中的测试数据
     JSONObject param = new JSONObject();
     param.put("username",getUserListCase.getUsername());
     param.put("email",getUserListCase.getEmail());
-    //2.2设置请求头格式，将参数放入请求头
-    post.setHeader("content-type","application/json");
-    StringEntity entity = new StringEntity(param.toString(),"utf-8");
-    post.setEntity(entity);
-    //3.1发起post请求，获取响应
-    HttpResponse response = TestConfig.httpClient.execute(post);
-    //3.2从response请求头中，获取接口返回的内容
-    String result = EntityUtils.toString(response.getEntity());
+    //2.传入url，json字符型参数，获取响应
+    String result = HttpClientUtil.doPost(TestConfig.getUserListUrl,param.toString());
+    //3.将其转换为json数组
     JSONArray jsonArray = JSONArray.parseArray(result);
     return jsonArray;
   }
