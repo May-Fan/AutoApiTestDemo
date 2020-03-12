@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871033ac-dc07-4b61-bc9c-28609eb124d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/testdata/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/testdata/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-07/debug0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-07/info0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-08/debug0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-08/info0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-09/debug0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-09/info0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-10/debug0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-02-10/info0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-03-03/debug0.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/2020-03-03/debug0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/logs/2020-03-03/info0.log" beforeDir="false" afterPath="$PROJECT_DIR$/api/logs/2020-03-03/info0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/autoApiTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/autoApiTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/logs/log4j2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/InterfaceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/InterfaceName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/UpdateUserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/UpdateUserInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/GetUrlUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/ConfigFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/HttpClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/bean/InterfaceName.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/bean/InterfaceName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/AddUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/GetUserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/GetUserInfoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/GetUserListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/GetUserListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/UpdateUserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/UpdateUserInfoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/config/TestConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/ConfigFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/HttpClientUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoApiTest/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/test-output/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +56,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -299,6 +252,8 @@
       <workItem from="1583739032995" duration="1354000" />
       <workItem from="1583743119639" duration="17467000" />
       <workItem from="1583846686391" duration="24647000" />
+      <workItem from="1583982836580" duration="359000" />
+      <workItem from="1583991484578" duration="790000" />
     </task>
     <servers />
   </component>
@@ -391,10 +346,10 @@
     <state width="1201" height="177" key="GridCell.Tab.1.right/36.23.1244.777@36.23.1244.777" timestamp="1583826738556" />
     <state width="1201" height="177" key="GridCell.Tab.1.right/37.23.1243.777@37.23.1243.777" timestamp="1583921590256" />
     <state width="1201" height="177" key="GridCell.Tab.1.right/37.23.1883.1057@37.23.1883.1057" timestamp="1583463593062" />
-    <state x="171" y="23" key="SettingsEditor" timestamp="1581161360071">
-      <screen x="34" y="23" width="1246" height="777" />
+    <state x="141" y="0" key="SettingsEditor" timestamp="1583991649764">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1581131247329" />
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583991649764" />
     <state x="171" y="23" key="SettingsEditor/34.23.1246.777@34.23.1246.777" timestamp="1581161360071" />
     <state x="172" y="23" key="SettingsEditor/35.23.1245.777@35.23.1245.777" timestamp="1581161298793" />
     <state x="336" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1583476062552">
@@ -438,16 +393,6 @@
           <url>file://$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserListTest.java</url>
           <line>41</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/LoginTest.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/LoginTest.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

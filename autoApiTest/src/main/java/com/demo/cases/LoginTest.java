@@ -3,7 +3,6 @@ package com.demo.cases;
 import com.alibaba.fastjson.JSONObject;
 import com.demo.bean.InterfaceName;
 import com.demo.bean.LoginCase;
-import com.demo.testdata.ExcelUtil;
 import com.demo.testdata.TestData;
 import com.demo.utils.GetUrlUtil;
 import com.demo.utils.ConfigFile;
