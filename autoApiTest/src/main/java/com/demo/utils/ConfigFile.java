@@ -12,7 +12,9 @@ import java.util.ResourceBundle;
  * @create: 2020-02-04 12:03
  */
 public class ConfigFile {
-  private static ResourceBundle bundle = ResourceBundle.getBundle("application", Locale.CHINA);
+  private static ResourceBundle bundle =
+          ResourceBundle.getBundle("application", Locale.CHINA);
+
   public static String getUrl(InterfaceName interfaceName) {
     String url = bundle.getString("test.url");
     String uri="";
@@ -28,5 +30,8 @@ public class ConfigFile {
       uri = bundle.getString("getUserList.uri");
     }
     return url+uri;
+  }
+  public static String getHostName(InterfaceName interfaceName) {
+    return bundle.getString("test.url");
   }
 }

@@ -256,6 +256,7 @@ public class HttpClientUtil {
    */
   public static String getTailUrl(Map<String,? extends Object> params) {
     if(params==null || params.size()==0) {
+
       return "";
     }
     StringBuffer tailUrl = new StringBuffer("?");

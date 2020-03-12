@@ -453,3 +453,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '5' for key '
 2020-03-03 14:14:05.593 [http-nio-6868-exec-4] INFO  cn.api.controller.UserController - 可查询到1个用户
 2020-03-03 14:14:05.771 [http-nio-6868-exec-5] INFO  cn.api.controller.UserController - cookies验证通过
 2020-03-03 14:14:05.776 [http-nio-6868-exec-5] INFO  cn.api.controller.UserController - 可查询到2个用户
+2020-03-03 17:22:12.156 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s404ms).
+2020-03-03 18:31:35.320 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s752ms).
+2020-03-03 18:34:28.047 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m22s713ms).
+2020-03-03 19:07:52.319 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m54s250ms).

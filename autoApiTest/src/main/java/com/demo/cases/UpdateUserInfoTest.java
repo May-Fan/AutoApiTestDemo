@@ -3,7 +3,7 @@ package com.demo.cases;
 import com.alibaba.fastjson.JSONObject;
 import com.demo.bean.UpdateUserInfoCase;
 import com.demo.bean.User;
-import com.demo.config.TestConfig;
+import com.demo.utils.GetUrlUtil;
 import com.demo.utils.DatabaseUtil;
 import com.demo.utils.HttpClientUtil;
 import org.apache.ibatis.session.SqlSession;
@@ -19,12 +19,12 @@ import java.io.IOException;
  * @create: 2020-02-04 14:10
  */
 public class UpdateUserInfoTest {
-  @Test(dependsOnGroups = "login",description = "更新用户信息测试")
+  @Test
   public void updateUserInfo() throws IOException {
     SqlSession session = DatabaseUtil.getSqlSession();
     UpdateUserInfoCase updateUserInfoCase = session.selectOne("updateUserInfoCase",1);
     System.out.println(updateUserInfoCase.toString());
-    System.out.println(TestConfig.updateUserInfoUrl);
+    System.out.println(GetUrlUtil.updateUserInfoUrl);
 
     //1.传递updateUserCase表中的测试数据，获取接口返回的Integer字符串
     int result = setParams(updateUserInfoCase);
@@ -50,7 +50,7 @@ public class UpdateUserInfoTest {
     param.put("email",updateUserInfoCase.getEmail());
     param.put("username",updateUserInfoCase.getUsername());
 
-    String result = HttpClientUtil.doPost(TestConfig.updateUserInfoUrl,param.toString());
+    String result = HttpClientUtil.doPost(GetUrlUtil.updateUserInfoUrl,param.toString());
     return Integer.parseInt(result);
   }
 }

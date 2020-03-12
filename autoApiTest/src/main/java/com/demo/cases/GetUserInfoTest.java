@@ -4,13 +4,9 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.demo.bean.GetUserInfoCase;
 import com.demo.bean.User;
-import com.demo.config.TestConfig;
+import com.demo.utils.GetUrlUtil;
 import com.demo.utils.DatabaseUtil;
 import com.demo.utils.HttpClientUtil;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -24,13 +20,13 @@ import java.io.IOException;
  * @create: 2020-02-04 14:48
  */
 public class GetUserInfoTest {
-  @Test(dependsOnGroups = "login", description = "获取用户信息测试")
+  @Test
   public void getUserInfo() throws IOException {
     SqlSession session = DatabaseUtil.getSqlSession();
     //获取userInfoCase表中的测试数据和预期结果
     GetUserInfoCase userInfoCase = session.selectOne("getUserInfoCase", 1);
     System.out.println(userInfoCase.toString());
-    System.out.println(TestConfig.getUserInfoUrl);
+    System.out.println(GetUrlUtil.getUserInfoUrl);
     //1.传递userInfoCase表中的测试数据，获取接口的返回JSONArray数组
     JSONArray resultJsonArray = setParams(userInfoCase);
     //2.1直接查询user表，获取预期结果
@@ -53,7 +49,7 @@ public class GetUserInfoTest {
     JSONObject param = new JSONObject();
     param.put("id",userInfoCase.getUserId());
     //2.传入url，json字符型参数，获取响应
-    String result = HttpClientUtil.doPost(TestConfig.getUserInfoUrl,param.toString());
+    String result = HttpClientUtil.doPost(GetUrlUtil.getUserInfoUrl,param.toString());
     //3.根据json字符串的符号，自动划分数组元素，result="[{"id":1,"username":"彭于晏","password":"123456"}]"
     JSONArray array = JSONArray.parseArray(result);
     return array;
