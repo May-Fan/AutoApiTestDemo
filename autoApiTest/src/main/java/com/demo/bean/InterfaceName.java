@@ -5,5 +5,5 @@ public enum InterfaceName {
   ADDUSER,
   GETUSERINFO,
   GETUSERLIST,
-  UPDATEUSERINFO
+  UPDATEUSERINFO,
 }

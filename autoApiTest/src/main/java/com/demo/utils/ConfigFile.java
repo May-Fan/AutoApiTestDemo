@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
 
 /**
  * @program: AutoApiTestDemo
- * @description:
+ * @description: 从配置文件中读取并拼接接口url
  * @author: May
  * @create: 2020-02-04 12:03
  */
@@ -16,7 +16,7 @@ public class ConfigFile {
           ResourceBundle.getBundle("application", Locale.CHINA);
 
   public static String getUrl(InterfaceName interfaceName) {
-    String url = bundle.getString("test.url");
+    String url = bundle.getString("host.url");
     String uri="";
     if (interfaceName.equals(InterfaceName.LOGIN)) {
       uri = bundle.getString("login.uri");
@@ -31,7 +31,7 @@ public class ConfigFile {
     }
     return url+uri;
   }
-  public static String getHostName(InterfaceName interfaceName) {
-    return bundle.getString("test.url");
+  public static String getHostName() {
+    return bundle.getString("host.url");
   }
 }

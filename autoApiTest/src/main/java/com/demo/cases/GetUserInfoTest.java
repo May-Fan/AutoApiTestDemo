@@ -36,7 +36,6 @@ public class GetUserInfoTest {
     JSONArray expectedJsonArray = JSONArray.parseArray(str);
     //3.将预期和实际接口返回值作比较
     Assert.assertEquals(expectedJsonArray,resultJsonArray);
-
   }
   /**
    * 向接口发起请求，处理并返回response信息

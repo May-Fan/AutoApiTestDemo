@@ -1,5 +1,4 @@
 package com.demo.utils;
-
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.*;
@@ -8,7 +7,6 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
-
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Array;
@@ -206,10 +204,10 @@ public class HttpClientUtil {
 
   /**
    * 执行put方法，获取String类型的返回值
-   * @param url
-   * @param jsonParams
-   * @param headers
-   * @return
+   * @param url url
+   * @param jsonParams json格式参数
+   * @param headers 请求头
+   * @return String类型返回值
    * @throws IOException
    */
   public static String doPut(String url,String jsonParams,

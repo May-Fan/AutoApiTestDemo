@@ -11,6 +11,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
  * @create: 2020-02-04 11:56
  */
 public class GetUrlUtil {
+  public static String hostname;
   public static String loginUrl;
   public static String addUserUrl;
   public static String updateUserInfoUrl;

@@ -1,5 +1,9 @@
 package com.demo.testdata;
 
+import com.demo.bean.InterfaceName;
+import com.demo.utils.ExcelUtil;
+import org.testng.annotations.DataProvider;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -12,14 +16,15 @@ import java.util.List;
 public class TestData {
   /**
    * 获取excel中测试数据
-   * @param apiName
+   * @param
    * @return
    * @throws IOException
    */
-  public static Object[][] getParam(String apiName) throws IOException {
+  @Deprecated
+  public static Object[][] getParam(InterfaceName interfaceName) throws IOException {
     List<Object> li ;
     //从静态方法获取请求登录接口的请求数据
-    List list = ExcelUtil.getApiData(apiName);
+    List list = ExcelUtil.getApiData(interfaceName);
     Object[][] loginData = new Object[list.size()][];
     for(int i=0;i<list.size();i++) {
       li = (List) list.get(i);
@@ -34,9 +39,15 @@ public class TestData {
     return loginData;
   }
 
-  public static Object[][] getTestData(String apiName) throws IOException {
+  /**
+   * 获取接口参数、url、expect
+   * @param interfaceName
+   * @return
+   * @throws IOException
+   */
+  public static Object[][] getTestData(InterfaceName interfaceName) {
     List<Object> li ;
-    List list = ExcelUtil.getApiData(apiName);
+    List list = ExcelUtil.getApiData(interfaceName);
     Object[][] testData = new Object[list.size()][3];
     for(int i=0;i<list.size();i++) {
       li = (List) list.get(i);
@@ -52,5 +63,4 @@ public class TestData {
     }
     return testData;
   }
-
 }

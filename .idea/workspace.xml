@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871033ac-dc07-4b61-bc9c-28609eb124d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/databaseConfig-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/logs/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/InterfaceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/bean/InterfaceName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/testdata/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/testdata/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/testdata/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/testdata/数据驱动测试用例.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/testdata/数据驱动测试用例.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/ConfigFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/DatabaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/GetUrlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/GetUrlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/HttpClientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/utils/数据驱动测试用例.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/src/main/resources/databaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/src/main/resources/databaseConfig-local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/AddUserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/GetUserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/GetUserInfoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/cases/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/testdata/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/testdata/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/testdata/TestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/ConfigFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/DatabaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/GetUrlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/GetUrlUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/target/classes/com/demo/utils/HttpClientUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/target/classes/databaseConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoApiTest/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/autoApiTest/test-output/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +98,7 @@
       <recent name="$PROJECT_DIR$/autoApiTest/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
+  <component name="RunManager" selected="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.Application" />
       <module name="api" />
@@ -129,33 +160,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelUtil" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autoApiTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.testdata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demo.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.testdata.ExcelUtil" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExcelUtil.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autoApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.testdata.*" />
+          <option name="PATTERN" value="com.demo.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demo.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.testdata.ExcelUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.utils.ExcelUtil" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -199,21 +213,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autoApiTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/autoApiTest/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Application" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="TestNG.LoginTest.loginTest" />
       <item itemvalue="TestNG.ExcelUtil.test" />
-      <item itemvalue="TestNG.ExcelUtil" />
       <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG./Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/resources/testng.xml" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.ExcelUtil.test" />
-        <item itemvalue="TestNG.ExcelUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +278,9 @@
       <workItem from="1583846686391" duration="24647000" />
       <workItem from="1583982836580" duration="359000" />
       <workItem from="1583991484578" duration="790000" />
+      <workItem from="1583994209848" duration="55000" />
+      <workItem from="1584000181573" duration="1345000" />
+      <workItem from="1584082221453" duration="13461000" />
     </task>
     <servers />
   </component>
@@ -274,41 +301,41 @@
       <screen x="34" y="23" width="1246" height="777" />
     </state>
     <state width="679" height="438" key="DebuggerActiveHint/34.23.1246.777@34.23.1246.777" timestamp="1581263027776" />
-    <state width="1238" height="195" key="GridCell.Tab.0.bottom" timestamp="1583982791717">
+    <state width="1238" height="195" key="GridCell.Tab.0.bottom" timestamp="1584166093252">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="195" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583982791717" />
+    <state width="1238" height="195" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584166093252" />
     <state width="1201" height="182" key="GridCell.Tab.0.bottom/34.23.1246.777@34.23.1246.777" timestamp="1583223805967" />
     <state width="1201" height="177" key="GridCell.Tab.0.bottom/35.23.1245.777@35.23.1245.777" timestamp="1583821482476" />
     <state width="1201" height="177" key="GridCell.Tab.0.bottom/36.23.1244.777@36.23.1244.777" timestamp="1583826735609" />
-    <state width="1238" height="195" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1583982615580" />
+    <state width="1238" height="195" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1584165498659" />
     <state width="1201" height="177" key="GridCell.Tab.0.bottom/37.23.1883.1057@37.23.1883.1057" timestamp="1583463593061" />
-    <state width="1238" height="195" key="GridCell.Tab.0.center" timestamp="1583982791715">
+    <state width="1238" height="195" key="GridCell.Tab.0.center" timestamp="1584166093250">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="195" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583982791715" />
+    <state width="1238" height="195" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584166093250" />
     <state width="1201" height="182" key="GridCell.Tab.0.center/34.23.1246.777@34.23.1246.777" timestamp="1583223805966" />
     <state width="1201" height="177" key="GridCell.Tab.0.center/35.23.1245.777@35.23.1245.777" timestamp="1583821482475" />
     <state width="1201" height="177" key="GridCell.Tab.0.center/36.23.1244.777@36.23.1244.777" timestamp="1583826735606" />
-    <state width="1238" height="195" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1583982615578" />
+    <state width="1238" height="195" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1584165498654" />
     <state width="1201" height="177" key="GridCell.Tab.0.center/37.23.1883.1057@37.23.1883.1057" timestamp="1583463593059" />
-    <state width="1238" height="195" key="GridCell.Tab.0.left" timestamp="1583982791714">
+    <state width="1238" height="195" key="GridCell.Tab.0.left" timestamp="1584166093249">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="195" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583982791714" />
+    <state width="1238" height="195" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584166093249" />
     <state width="1201" height="182" key="GridCell.Tab.0.left/34.23.1246.777@34.23.1246.777" timestamp="1583223805964" />
     <state width="1201" height="177" key="GridCell.Tab.0.left/35.23.1245.777@35.23.1245.777" timestamp="1583821482474" />
     <state width="1201" height="177" key="GridCell.Tab.0.left/36.23.1244.777@36.23.1244.777" timestamp="1583826735590" />
-    <state width="1238" height="195" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1583982615577" />
+    <state width="1238" height="195" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1584165498653" />
     <state width="1201" height="177" key="GridCell.Tab.0.left/37.23.1883.1057@37.23.1883.1057" timestamp="1583463593059" />
-    <state width="1238" height="195" key="GridCell.Tab.0.right" timestamp="1583982791716">
+    <state width="1238" height="195" key="GridCell.Tab.0.right" timestamp="1584166093251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="195" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583982791716" />
+    <state width="1238" height="195" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584166093251" />
     <state width="1201" height="182" key="GridCell.Tab.0.right/34.23.1246.777@34.23.1246.777" timestamp="1583223805966" />
     <state width="1201" height="177" key="GridCell.Tab.0.right/35.23.1245.777@35.23.1245.777" timestamp="1583821482475" />
     <state width="1201" height="177" key="GridCell.Tab.0.right/36.23.1244.777@36.23.1244.777" timestamp="1583826735608" />
-    <state width="1238" height="195" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1583982615579" />
+    <state width="1238" height="195" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1584165498656" />
     <state width="1201" height="177" key="GridCell.Tab.0.right/37.23.1883.1057@37.23.1883.1057" timestamp="1583463593061" />
     <state width="1238" height="177" key="GridCell.Tab.1.bottom" timestamp="1583982788438">
       <screen x="0" y="0" width="1280" height="800" />
@@ -352,15 +379,16 @@
     <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583991649764" />
     <state x="171" y="23" key="SettingsEditor/34.23.1246.777@34.23.1246.777" timestamp="1581161360071" />
     <state x="172" y="23" key="SettingsEditor/35.23.1245.777@35.23.1245.777" timestamp="1581161298793" />
-    <state x="336" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1583476062552">
-      <screen x="37" y="23" width="1243" height="777" />
-    </state>
-    <state x="334" y="244" key="com.intellij.ide.util.TipDialog/35.23.1245.777@35.23.1245.777" timestamp="1581593147464" />
-    <state x="336" y="244" key="com.intellij.ide.util.TipDialog/37.23.1243.777@37.23.1243.777" timestamp="1583476062552" />
-    <state width="300" height="37" key="javadoc.popup.new" timestamp="1583982083279">
+    <state x="308" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1584082221373">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="300" height="37" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1583982083279" />
+    <state x="308" y="228" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1584082221373" />
+    <state x="334" y="244" key="com.intellij.ide.util.TipDialog/35.23.1245.777@35.23.1245.777" timestamp="1581593147464" />
+    <state x="336" y="244" key="com.intellij.ide.util.TipDialog/37.23.1243.777@37.23.1243.777" timestamp="1583476062552" />
+    <state width="300" height="37" key="javadoc.popup.new" timestamp="1584158866925">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="300" height="37" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1584158866925" />
     <state width="300" height="37" key="javadoc.popup.new/34.23.1246.777@34.23.1246.777" timestamp="1583223657851" />
     <state width="300" height="37" key="javadoc.popup.new/35.23.1245.777@35.23.1245.777" timestamp="1583820773438" />
     <state width="300" height="37" key="javadoc.popup.new/36.23.1244.777@36.23.1244.777" timestamp="1583827205836" />
@@ -379,11 +407,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/AddUserTest.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/autoApiTest/src/main/java/com/demo/cases/GetUserListTest.java</url>
           <line>35</line>
