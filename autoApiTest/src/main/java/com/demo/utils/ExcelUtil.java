@@ -4,7 +4,6 @@ import com.demo.bean.InterfaceName;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.annotations.Test;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -19,7 +18,7 @@ import java.util.List;
 public class ExcelUtil {
 
   //获取excel中的数据
-  public static List list =
+  public static List<List<Object>> list =
           getExcelData("/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/java/com/demo/testdata",
                     "数据驱动测试用例.xlsx");
   /**
@@ -28,12 +27,12 @@ public class ExcelUtil {
    * @return
    * @throws IOException
    */
-  public static List getApiData(InterfaceName interfaceName) {
+  public static List<List<Object>> getApiData(InterfaceName interfaceName) {
     List<Object> li;
-    List loginList =  new ArrayList();
-    List addUserList = new ArrayList();
-    List updateList = new ArrayList();
-    List getUserList = new ArrayList();
+    List<List<Object>> loginList =  new ArrayList<>();
+    List<List<Object>> addUserList = new ArrayList<>();
+    List<List<Object>> updateList = new ArrayList<>();
+    List<List<Object>> getUserList = new ArrayList<>();
     for(Object obj:list) {
       li = (List) obj;
       if(li.get(1).equals("Login")) {
@@ -67,13 +66,13 @@ public class ExcelUtil {
    * @return List二维集合
    * @throws IOException
    */
-  public static List getExcelData(String filePath,String fileName)  {
+  public static List<List<Object>> getExcelData(String filePath,String fileName)  {
     Workbook workbook = null;
     Sheet sheet;
     Row row;
     Cell cell;
     String str;
-    List list = new ArrayList();
+    List<List<Object>> list = new ArrayList<>();
     File file = new File(filePath + "/" + fileName);
     //1.根据后缀名，获取工作表
     try {
