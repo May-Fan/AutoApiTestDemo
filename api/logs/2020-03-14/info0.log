@@ -450,3 +450,10 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '20' for key 
 2020-03-14 14:08:19.258 [http-nio-6868-exec-5] INFO  cn.api.controller.UserController - 可查询到1个用户
 2020-03-14 14:08:19.696 [http-nio-6868-exec-6] INFO  cn.api.controller.UserController - cookies验证通过
 2020-03-14 14:08:19.712 [http-nio-6868-exec-6] INFO  cn.api.controller.UserController - 可查询到1个用户
+2020-03-14 14:45:17.430 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m56s174ms).
+2020-03-14 19:35:17.362 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s850ms).
+2020-03-14 20:01:22.353 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m34s921ms).
+2020-03-14 20:58:59.622 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s362ms).
+2020-03-14 21:41:12.708 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s703ms).
+2020-03-14 22:14:33.239 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m50s424ms).
+2020-03-14 22:15:02.873 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s634ms), soft-evicting connections from pool.
