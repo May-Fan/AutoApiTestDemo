@@ -19,8 +19,10 @@ public class ExcelUtil {
 
   //获取excel中的数据
   public static List<List<Object>> list =
-          getExcelData("/Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/java/com/demo/testdata",
+          getExcelData("/var/lib/jenkins/workspace/test/autoApiTest/src/main/java/com/demo/testdata",
                     "数据驱动测试用例.xlsx");
+  ///var/lib/jenkins/workspace/test/autoApiTest/src/main/java/com/demo/testdata
+  ///Users/fanlilin/workspace/autoApiTest/AutoApiTestDemo/autoApiTest/src/main/java/com/demo/testdata
   /**
    * 根据接口名称
    * @param interfaceName
