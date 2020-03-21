@@ -44,6 +44,8 @@ public class UserController {
     if(!isExist.equals(0)) {
       log.info("可查询到当前用户名:"+loginUser.getUsername());
       return true;
+    }else{
+      log.info(loginUser.getUsername()+"：用户名密码不正确！");
     }
     return false;
   }
