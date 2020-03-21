@@ -46,9 +46,9 @@ public class LoginTest {
     url = GetUrlUtil.hostname + url;
     //2.发送http请求
     String result = doRequest(user,url);
-    logger.info("获取到接口地址："+ url);
-    logger.info("获取到预期值为："+ expect);
-    logger.info("获取到接口实际返回值为："+result);
+    logger.info("接口访问地址："+ url);
+    logger.info("预期结果："+ expect);
+    logger.info("实际返回："+result);
     //3.断言
     Assert.assertEquals(result,expect);
   }

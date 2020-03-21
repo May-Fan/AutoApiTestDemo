@@ -8,6 +8,7 @@ import com.demo.utils.GetUrlUtil;
 import com.demo.utils.DatabaseUtil;
 import com.demo.utils.HttpClientUtil;
 import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,13 +21,13 @@ import java.io.IOException;
  * @create: 2020-02-04 14:48
  */
 public class GetUserInfoTest {
+
+  Logger logger = Logger.getLogger(GetUserInfoTest.class);
   @Test
   public void getUserInfo() throws IOException {
     SqlSession session = DatabaseUtil.getSqlSession();
     //获取userInfoCase表中的测试数据和预期结果
     GetUserInfoCase userInfoCase = session.selectOne("getUserInfoCase", 1);
-    System.out.println(userInfoCase.toString());
-    System.out.println(GetUrlUtil.getUserInfoUrl);
     //1.传递userInfoCase表中的测试数据，获取接口的返回JSONArray数组
     JSONArray resultJsonArray = setParams(userInfoCase);
     //2.1直接查询user表，获取预期结果
@@ -34,8 +35,12 @@ public class GetUserInfoTest {
     //2.2将获取到的预期转化成JSONArray格式的字符串，并转化为JSONArray
     String str = "["+JSONObject.toJSONString(user)+"]";
     JSONArray expectedJsonArray = JSONArray.parseArray(str);
+
+    logger.info("接口访问地址：" + GetUrlUtil.getUserInfoUrl);
+    logger.info("接口预期：" + str);
+    logger.info("接口返回：" + resultJsonArray.toString());
     //3.将预期和实际接口返回值作比较
-    Assert.assertEquals(expectedJsonArray,resultJsonArray);
+    Assert.assertEquals(resultJsonArray,expectedJsonArray);
   }
   /**
    * 向接口发起请求，处理并返回response信息

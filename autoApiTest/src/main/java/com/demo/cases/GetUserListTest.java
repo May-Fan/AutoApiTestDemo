@@ -9,6 +9,7 @@ import com.demo.utils.GetUrlUtil;
 import com.demo.utils.DatabaseUtil;
 import com.demo.utils.HttpClientUtil;
 import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,13 +23,14 @@ import java.util.List;
  * @create: 2020-02-04 14:29
  */
 public class GetUserListTest {
+
+  Logger logger = Logger.getLogger(GetUserListTest.class);
+
   @Test
   public void getUserList() throws IOException {
     SqlSession session = DatabaseUtil.getSqlSession();
     //获取userListCase表中的测试数据和预期结果
     GetUserListCase getUserListCase = session.selectOne("getUserListCase",1);
-    System.out.println(getUserListCase.toString());
-    System.out.println(GetUrlUtil.getUserListUrl);
     //1.传递userListCase表中的测试数据，获取接口的返回JSONArray数组
     JSONArray resultJsonArray = getJsonResult(getUserListCase);
     //2.1直接查询user表，获取预期结果并打印
@@ -38,13 +40,17 @@ public class GetUserListTest {
     }
     //2.2将获取到的预期转化成JSONArray格式的字符串，并转化为JSONArray
     JSONArray expectedJsonArray = JSONArray.parseArray(JSON.toJSONString(expectedUserList));
+
+    logger.info("接口访问地址：" + GetUrlUtil.getUserListUrl);
+    logger.info("接口预期：" + expectedJsonArray.toString());
+    logger.info("实际返回：" + resultJsonArray.toString());
     //3.1先比对两个JSON数组的大小
     Assert.assertEquals(expectedJsonArray.size(),resultJsonArray.size());
     //3.2遍历2个数组，将其中的元素一一比对
     for(int i=0;i<resultJsonArray.size();i++) {
       JSONObject expect = (JSONObject) resultJsonArray.get(i);
       JSONObject actual = (JSONObject) expectedJsonArray.get(i);
-      Assert.assertEquals(expect.toString(),actual.toString());
+      Assert.assertEquals(actual.toString(),expect.toString());
     }
   }
   /**
